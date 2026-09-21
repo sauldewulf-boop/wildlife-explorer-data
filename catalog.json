@@ -26,9 +26,10 @@
       "archive": "zip",
       "sha256": "abf45f76afcb9d1736cf845643db3d4862ca0c1187b2bf79162dc129c8bca21b",
       "sqlite_sha256": "38421f66f832d9c03f9aff00540d2330dfe9ddbd022a903642701446a164a6e6",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/am_1y.sqlite3.zip",
       "file_name": "am_1y.sqlite3.zip",
-      "unassigned_region_count": 0
+      "unassigned_region_count": 0,
+      "regions_enabled": false
     },
     {
       "id": "be_1y",
@@ -54,9 +55,10 @@
       "archive": "zip",
       "sha256": "c5127886af624fc483a16a5e2fdcea64487966e526a8536551dcf26d58535035",
       "sqlite_sha256": "6df1a3baad86e389b5833b5f258c3d800c3d2ba172f2f05cdd283fbb3d88b9d3",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/be_1y.sqlite3.zip",
       "file_name": "be_1y.sqlite3.zip",
-      "unassigned_region_count": 737
+      "unassigned_region_count": 737,
+      "regions_enabled": false
     },
     {
       "id": "fr_1y",
@@ -82,9 +84,10 @@
       "archive": "zip",
       "sha256": "28d91d4ea43bfc21502be9cd3d986f421661c89a4dfa2160bd24f140d2917f37",
       "sqlite_sha256": "273b6ead7e724851dd1853bafe0f6999b9e590302200011b1549a1d5e83211a5",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/fr_1y.sqlite3.zip",
       "file_name": "fr_1y.sqlite3.zip",
-      "unassigned_region_count": 13697
+      "unassigned_region_count": 13697,
+      "regions_enabled": false
     },
     {
       "id": "ge_1y",
@@ -110,9 +113,10 @@
       "archive": "zip",
       "sha256": "c70bfeea057d6b5b7e0edd4ad009ab462a62aae3ae24aa4bcfb7c3590936c848",
       "sqlite_sha256": "723e03dd90106bf3fc264e2b985d656ed79adee2716ede37f9e178613860140f",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/ge_1y.sqlite3.zip",
       "file_name": "ge_1y.sqlite3.zip",
-      "unassigned_region_count": 715
+      "unassigned_region_count": 715,
+      "regions_enabled": false
     },
     {
       "id": "germany_1y",
@@ -138,9 +142,10 @@
       "archive": "zip",
       "sha256": "56884cbef5726bb490dd7bc3cfb3290e7cd5652f650116b3738cbba2eebae5cc",
       "sqlite_sha256": "60ca679c52a225f223d63ab08035f9f7879cb4e8697642ea12303c7d0e93a076",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/germany_1y.sqlite3.zip",
       "file_name": "germany_1y.sqlite3.zip",
-      "unassigned_region_count": 185141
+      "unassigned_region_count": 185141,
+      "regions_enabled": false
     },
     {
       "id": "greece_1y",
@@ -166,9 +171,10 @@
       "archive": "zip",
       "sha256": "849224bdc3f270f06f2b81386fc802555785eb371a07f78d2eddb605227e57d0",
       "sqlite_sha256": "3023a21c1c26f595ff0086c3679409ed00138529ae6e24e7bf28d33ebe15b1de",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/greece_1y.sqlite3.zip",
       "file_name": "greece_1y.sqlite3.zip",
-      "unassigned_region_count": 44779
+      "unassigned_region_count": 44779,
+      "regions_enabled": false
     },
     {
       "id": "italy_1y",
@@ -194,9 +200,10 @@
       "archive": "zip",
       "sha256": "05f7f551fb6a19c8d18714db44faaa3f10fb7a62ccd9008ae475549a20e86257",
       "sqlite_sha256": "93967c268dfc4b3f33d778e974e560546406b055c77b7693c328731e24a8351f",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/italy_1y.sqlite3.zip",
       "file_name": "italy_1y.sqlite3.zip",
-      "unassigned_region_count": 105455
+      "unassigned_region_count": 105455,
+      "regions_enabled": false
     },
     {
       "id": "jordan_1y",
@@ -222,9 +229,10 @@
       "archive": "zip",
       "sha256": "f5ab98e494212fa54195099435d9fc62eacf5504f9b59d4909eece79bf85fc0e",
       "sqlite_sha256": "11c967c47de068d15e81d3a68921a6a71266392b4e95e42d3875d24308f1d57f",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/jordan_1y.sqlite3.zip",
       "file_name": "jordan_1y.sqlite3.zip",
-      "unassigned_region_count": 424
+      "unassigned_region_count": 424,
+      "regions_enabled": false
     },
     {
       "id": "nl_1y",
@@ -250,9 +258,10 @@
       "archive": "zip",
       "sha256": "4df4abe1caa09af797459e01bb20fea23cb72968b3701b33df55743223c8641c",
       "sqlite_sha256": "76c96d97afe385100895e76a98c258ca50b521766cfac038d9820b418e455177",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/nl_1y.sqlite3.zip",
       "file_name": "nl_1y.sqlite3.zip",
-      "unassigned_region_count": 3688
+      "unassigned_region_count": 3688,
+      "regions_enabled": false
     },
     {
       "id": "portugal_1y",
@@ -278,9 +287,10 @@
       "archive": "zip",
       "sha256": "3b692fc75e9fa435de2ba7dda73feb09a8e93d642ca154d8fb421662e8fe26ec",
       "sqlite_sha256": "aa792912dde3795f321bb3093932aa4b7e342ca36036f695d0d0181bb6ed03be",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/portugal_1y.sqlite3.zip",
       "file_name": "portugal_1y.sqlite3.zip",
-      "unassigned_region_count": 94566
+      "unassigned_region_count": 94566,
+      "regions_enabled": false
     },
     {
       "id": "spain_1y",
@@ -306,9 +316,10 @@
       "archive": "zip",
       "sha256": "614266f3fe1b2c7455978863ebede2266f00d3c60897930e0963d7993105cd7b",
       "sqlite_sha256": "4619dec1298a5bd2d6969eca6c1255359b6a4cf8971f876362069bc47d45d9ec",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/spain_1y.sqlite3.zip",
       "file_name": "spain_1y.sqlite3.zip",
-      "unassigned_region_count": 382899
+      "unassigned_region_count": 382899,
+      "regions_enabled": false
     },
     {
       "id": "thailand_1y",
@@ -334,9 +345,10 @@
       "archive": "zip",
       "sha256": "15e3249b892cb102f460473d4c9aa3e75838bb2c59c5cd73872f0cf456d131b9",
       "sqlite_sha256": "0ba76c08eb12d8145ac5b572d27d8043ed34e4dd7744a1920a23de25f2c62ebb",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/thailand_1y.sqlite3.zip",
       "file_name": "thailand_1y.sqlite3.zip",
-      "unassigned_region_count": 63240
+      "unassigned_region_count": 63240,
+      "regions_enabled": false
     },
     {
       "id": "t_rkiye_1y",
@@ -362,9 +374,10 @@
       "archive": "zip",
       "sha256": "f4c7c54947097c4798a2c8e70907a0d7c3db17e4d7274cbfa1294f104559b444",
       "sqlite_sha256": "8c46521c6f4f0e80768ad7f8aee687ed28fc07d90b1796980e17cd7e7a8b2940",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/t_rkiye_1y.sqlite3.zip",
       "file_name": "t_rkiye_1y.sqlite3.zip",
-      "unassigned_region_count": 26036
+      "unassigned_region_count": 26036,
+      "regions_enabled": false
     },
     {
       "id": "viet_nam_1y",
@@ -390,9 +403,10 @@
       "archive": "zip",
       "sha256": "fe213942cccd933ad3e4cd5d02c6853e497beac8dc447f5fa49dca5bd5890e72",
       "sqlite_sha256": "c52cd62781c6b933333def08f5dccfb00fcf50cbbecc35a5a9c552ae0d09b372",
-      "download_url": "",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/viet_nam_1y.sqlite3.zip",
       "file_name": "viet_nam_1y.sqlite3.zip",
-      "unassigned_region_count": 14074
+      "unassigned_region_count": 14074,
+      "regions_enabled": false
     }
   ]
 }
