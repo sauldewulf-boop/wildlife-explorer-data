@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.09.03",
+  "catalog_version": "2026.09.05",
   "updated": "2026-09-21",
   "packs": [
     {
@@ -592,7 +592,7 @@
       "name": "Viet Nam",
       "country_code": "VN",
       "schema_version": 1,
-      "version": "2026.09.03",
+      "version": "2026.09.05",
       "period_start": "2025-09-01",
       "period_end": "2026-09-01",
       "observation_count": 13613,
@@ -606,11 +606,11 @@
       "west": 103.100084,
       "north": 23.27833,
       "east": 109.455508,
-      "size_bytes": 1434293,
-      "uncompressed_size_bytes": 5509120,
+      "size_bytes": 1439875,
+      "uncompressed_size_bytes": 5521408,
       "archive": "zip",
-      "sha256": "45b99c946c8060a267be69baca7d948e42c591b61784d350b844b63a47b151f3",
-      "sqlite_sha256": "2c218ba65bb9afb2f55ecf7241e96e3459e5ad56d3afcb8acab462965de17851",
+      "sha256": "c102036aab81bd43a3de4cb4fe1fcb57bbdfd97a4179a451a305d2da14b52565",
+      "sqlite_sha256": "b79ef54df773e5e785dcedf2558d74e57ed7f7b6c95f43033297f2d27823c083",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/viet_nam_1y.sqlite3.zip",
       "file_name": "viet_nam_1y.sqlite3.zip",
       "unassigned_region_count": 13613,
@@ -630,7 +630,15 @@
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
       "geospatial_keep_original_count": 12349,
       "geospatial_snap_for_display_count": 1264,
-      "geospatial_review_or_remove_count": 0
+      "geospatial_review_or_remove_count": 0,
+      "vietnam_offshore_birds_hidden": true,
+      "vietnam_offshore_birds_rule": "All bird observations outside Natural Earth 10m land are hidden from map; mammals unchanged",
+      "vietnam_offshore_birds_newly_hidden": 0,
+      "vietnam_offshore_birds_already_hidden": 0,
+      "vietnam_offshore_land_animals_hidden": true,
+      "vietnam_offshore_land_animals_rule": "All bird and mammal observations outside Natural Earth 10m land are hidden from map",
+      "vietnam_offshore_mammals_newly_hidden": 482,
+      "vietnam_offshore_already_hidden": 1171
     }
   ]
 }
