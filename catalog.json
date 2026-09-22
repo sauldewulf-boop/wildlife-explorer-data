@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2026.09.05",
-  "updated": "2026-09-21",
+  "catalog_version": "2026.09.06",
+  "updated": "2026-09-22",
   "packs": [
     {
       "id": "am_1y",
@@ -592,7 +592,7 @@
       "name": "Viet Nam",
       "country_code": "VN",
       "schema_version": 1,
-      "version": "2026.09.05",
+      "version": "2026.09.06",
       "period_start": "2025-09-01",
       "period_end": "2026-09-01",
       "observation_count": 13613,
@@ -606,11 +606,11 @@
       "west": 103.100084,
       "north": 23.27833,
       "east": 109.455508,
-      "size_bytes": 1439875,
-      "uncompressed_size_bytes": 5521408,
+      "size_bytes": 1459804,
+      "uncompressed_size_bytes": 5566464,
       "archive": "zip",
-      "sha256": "c102036aab81bd43a3de4cb4fe1fcb57bbdfd97a4179a451a305d2da14b52565",
-      "sqlite_sha256": "b79ef54df773e5e785dcedf2558d74e57ed7f7b6c95f43033297f2d27823c083",
+      "sha256": "0d5f42b3b16ee5d83ae8e797c7635971c1c95e83d196923699439dc8f0c7d065",
+      "sqlite_sha256": "51c53586d7b5edc92fdda8944c244c280b1271ee74541918449a10eebd367232",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/viet_nam_1y.sqlite3.zip",
       "file_name": "viet_nam_1y.sqlite3.zip",
       "unassigned_region_count": 13613,
@@ -638,7 +638,11 @@
       "vietnam_offshore_land_animals_hidden": true,
       "vietnam_offshore_land_animals_rule": "All bird and mammal observations outside Natural Earth 10m land are hidden from map",
       "vietnam_offshore_mammals_newly_hidden": 482,
-      "vietnam_offshore_already_hidden": 1171
+      "vietnam_offshore_already_hidden": 1171,
+      "vietnam_inaturalist_high_uncertainty_hidden": true,
+      "vietnam_inaturalist_uncertainty_threshold_m": 30000.0,
+      "vietnam_inaturalist_high_uncertainty_newly_hidden": 3285,
+      "vietnam_inaturalist_high_uncertainty_already_hidden": 932
     }
   ]
 }
