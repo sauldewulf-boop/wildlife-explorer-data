@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.09.06",
+  "catalog_version": "2026.09.07",
   "updated": "2026-09-22",
   "packs": [
     {
@@ -502,7 +502,7 @@
       "name": "Thailand",
       "country_code": "TH",
       "schema_version": 1,
-      "version": "2026.09.03",
+      "version": "2026.09.07",
       "period_start": "2025-09-01",
       "period_end": "2026-09-01",
       "observation_count": 60727,
@@ -516,11 +516,11 @@
       "west": 97.607112,
       "north": 20.487579,
       "east": 105.789753,
-      "size_bytes": 6149207,
-      "uncompressed_size_bytes": 23216128,
+      "size_bytes": 6214247,
+      "uncompressed_size_bytes": 23367680,
       "archive": "zip",
-      "sha256": "107cb9977dbfeb2f4ab75af387bdddae153bb9b787ab9ce5df56db0d603f5a39",
-      "sqlite_sha256": "db478c8e104949335f39a0c2a62e92d8899d16fdc11adb9f174709fdccc5ab96",
+      "sha256": "ec9b191b54a945b1a2a88e42ffc57c0639f1dd7b7667bf349e8c4f6353793d5c",
+      "sqlite_sha256": "3c074198d6c043e07c9a5129d62aa8cdf656421868d255261d015faf8280d931",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/thailand_1y.sqlite3.zip",
       "file_name": "thailand_1y.sqlite3.zip",
       "unassigned_region_count": 60727,
@@ -540,7 +540,11 @@
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
       "geospatial_keep_original_count": 59400,
       "geospatial_snap_for_display_count": 844,
-      "geospatial_review_or_remove_count": 483
+      "geospatial_review_or_remove_count": 483,
+      "thailand_inaturalist_high_uncertainty_hidden": true,
+      "thailand_inaturalist_uncertainty_threshold_m": 30000.0,
+      "thailand_inaturalist_high_uncertainty_newly_hidden": 6117,
+      "thailand_inaturalist_high_uncertainty_already_hidden": 0
     },
     {
       "id": "t_rkiye_1y",
