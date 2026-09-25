@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2026.09.24",
-  "updated": "2026-09-24",
+  "catalog_version": "2026.09.25.0930",
+  "updated": "2026-09-25",
   "packs": [
     {
       "id": "am_1y",
@@ -765,28 +765,28 @@
       "name": "Viet Nam",
       "country_code": "VN",
       "schema_version": 1,
-      "version": "2026.09.06",
-      "period_start": "2025-09-01",
-      "period_end": "2026-09-01",
-      "observation_count": 13613,
-      "bird_observations": 11327,
-      "mammal_observations": 2286,
-      "species_count": 640,
-      "region_count": 1,
-      "first_observation_date": "2025-09-01",
-      "last_observation_date": "2026-09-01",
-      "south": 8.563742,
-      "west": 103.100084,
-      "north": 23.27833,
-      "east": 109.455508,
-      "size_bytes": 1459804,
-      "uncompressed_size_bytes": 5566464,
+      "version": "2026.09.25.0930",
+      "period_start": "2021-09-25",
+      "period_end": "2026-09-25",
+      "observation_count": 203543,
+      "bird_observations": 198657,
+      "mammal_observations": 4886,
+      "species_count": 910,
+      "region_count": 0,
+      "first_observation_date": "2021-10-15",
+      "last_observation_date": "2026-09-07",
+      "south": 7.376667,
+      "west": 103.016685,
+      "north": 23.363571,
+      "east": 111.84097,
+      "size_bytes": 12753113,
+      "uncompressed_size_bytes": 71970816,
       "archive": "zip",
-      "sha256": "0d5f42b3b16ee5d83ae8e797c7635971c1c95e83d196923699439dc8f0c7d065",
-      "sqlite_sha256": "51c53586d7b5edc92fdda8944c244c280b1271ee74541918449a10eebd367232",
+      "sha256": "3d7620b62f2746f3c5995badad93ab2a6fc7945020b70fcc727c798a4d290f07",
+      "sqlite_sha256": "ad002b834de943fa41e471ad0518a6145cb7fb198121a36fed9534afa26e9d9a",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/viet_nam_1y.sqlite3.zip",
       "file_name": "viet_nam_1y.sqlite3.zip",
-      "unassigned_region_count": 13613,
+      "unassigned_region_count": 203543,
       "regions_enabled": false,
       "taxonomy_cleaned": true,
       "taxonomy_source": "GBIF Species Backbone",
@@ -794,15 +794,15 @@
       "bird_display_name_source": "IOC World Bird List v15.2",
       "mammal_display_name_source": "ASM Mammal Diversity Database v2.5",
       "curated_english_names": true,
-      "bird_curated_name_species": 545,
-      "bird_scientific_fallback_species": 0,
-      "mammal_curated_name_species": 95,
+      "bird_curated_name_species": 778,
+      "bird_scientific_fallback_species": 1,
+      "mammal_curated_name_species": 131,
       "mammal_scientific_fallback_species": 0,
       "curated_taxon_corrections": true,
       "geospatial_display_cleaned": true,
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
-      "geospatial_keep_original_count": 12349,
-      "geospatial_snap_for_display_count": 1264,
+      "geospatial_keep_original_count": 197155,
+      "geospatial_snap_for_display_count": 6388,
       "geospatial_review_or_remove_count": 0,
       "vietnam_offshore_birds_hidden": true,
       "vietnam_offshore_birds_rule": "All bird observations outside Natural Earth 10m land are hidden from map; mammals unchanged",
@@ -811,11 +811,62 @@
       "vietnam_offshore_land_animals_hidden": true,
       "vietnam_offshore_land_animals_rule": "All bird and mammal observations outside Natural Earth 10m land are hidden from map",
       "vietnam_offshore_mammals_newly_hidden": 482,
-      "vietnam_offshore_already_hidden": 1171,
+      "vietnam_offshore_already_hidden": 0,
       "vietnam_inaturalist_high_uncertainty_hidden": true,
       "vietnam_inaturalist_uncertainty_threshold_m": 30000.0,
       "vietnam_inaturalist_high_uncertainty_newly_hidden": 3285,
-      "vietnam_inaturalist_high_uncertainty_already_hidden": 932
+      "vietnam_inaturalist_high_uncertainty_already_hidden": 932,
+      "inaturalist_high_uncertainty_hidden": false,
+      "inaturalist_uncertainty_threshold_m": 30000.0,
+      "inaturalist_high_uncertainty_newly_hidden": 3444,
+      "inaturalist_high_uncertainty_already_hidden": 773,
+      "vietnam_offshore_mammals_and_birds_rule": "Bird and mammal observations whose original coordinates are outside Natural Earth 10m land are hidden from map.",
+      "vietnam_offshore_newly_hidden": 1264,
+      "ebird_observations_raw": 293366,
+      "ebird_enabled": true,
+      "ebird_dataset_key": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+      "ebird_dataset_name": "EOD – eBird Observation Dataset",
+      "ebird_dataset_license": "CC BY 4.0",
+      "ebird_dataset_doi": "10.15468/aomfnb",
+      "ebird_via": "GBIF",
+      "provider_counts_raw": {
+        "inaturalist": 27823,
+        "ebird": 177272,
+        "observation": 3576
+      },
+      "group_windows": {
+        "birds": {
+          "date_from": "2023-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 203670,
+          "years": 3
+        },
+        "mammals": {
+          "date_from": "2021-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 5001,
+          "years": 5
+        }
+      },
+      "selection_policy": {
+        "version": "group-adaptive-v1",
+        "target_observations_per_group": 100000,
+        "min_years": 1,
+        "groups": {
+          "birds": [
+            "observation",
+            "inaturalist",
+            "ebird"
+          ],
+          "mammals": [
+            "observation",
+            "inaturalist"
+          ]
+        }
+      },
+      "geospatial_review_hidden": true,
+      "geospatial_review_newly_hidden": 0,
+      "geospatial_already_hidden": 0
     }
   ]
 }
