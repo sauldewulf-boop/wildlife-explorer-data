@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.09.25.1126",
+  "catalog_version": "2026.09.25.1155",
   "updated": "2026-09-25",
   "packs": [
     {
@@ -765,28 +765,28 @@
       "name": "Viet Nam",
       "country_code": "VN",
       "schema_version": 1,
-      "version": "2026.09.25.1126",
-      "period_start": "2025-09-25",
+      "version": "2026.09.25.1155",
+      "period_start": "2024-01-01",
       "period_end": "2026-09-25",
-      "observation_count": 13244,
-      "bird_observations": 11010,
-      "mammal_observations": 2234,
-      "species_count": 634,
+      "observation_count": 152157,
+      "bird_observations": 148750,
+      "mammal_observations": 3407,
+      "species_count": 818,
       "region_count": 0,
-      "first_observation_date": "2025-09-25",
-      "last_observation_date": "2026-09-07",
-      "south": 8.563742,
-      "west": 103.100084,
-      "north": 23.27833,
-      "east": 109.399828,
-      "size_bytes": 1316659,
-      "uncompressed_size_bytes": 4993024,
+      "first_observation_date": "2024-01-01",
+      "last_observation_date": "2026-09-06",
+      "south": 7.376667,
+      "west": 103.01865,
+      "north": 23.363504,
+      "east": 111.070755,
+      "size_bytes": 8968254,
+      "uncompressed_size_bytes": 53989376,
       "archive": "zip",
-      "sha256": "3052fbc793c393594ff4ca802ed6c5e73c532cd7cee5aa207caf26479f3d3be6",
-      "sqlite_sha256": "a808c22217c2e5013e2e35b3c05b83a9e30ea30e15c18c5d669d269e58e6fd50",
+      "sha256": "97e033c97eb7325631cacce7d8b8161bb23a1381cb147b1db958f053fac74f4a",
+      "sqlite_sha256": "5522e284f1ff69563b64cb2126ac1a4abfaef138b5801a80fd8587ee8fa7533c",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/viet_nam_1y.sqlite3.zip",
       "file_name": "viet_nam_1y.sqlite3.zip",
-      "unassigned_region_count": 13244,
+      "unassigned_region_count": 152157,
       "regions_enabled": false,
       "taxonomy_cleaned": true,
       "taxonomy_source": "GBIF Species Backbone",
@@ -794,16 +794,16 @@
       "bird_display_name_source": "IOC World Bird List v15.2",
       "mammal_display_name_source": "ASM Mammal Diversity Database v2.5",
       "curated_english_names": true,
-      "bird_curated_name_species": 540,
+      "bird_curated_name_species": 711,
       "bird_scientific_fallback_species": 0,
-      "mammal_curated_name_species": 94,
+      "mammal_curated_name_species": 107,
       "mammal_scientific_fallback_species": 0,
       "curated_taxon_corrections": true,
       "geospatial_display_cleaned": true,
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
-      "geospatial_keep_original_count": 12473,
-      "geospatial_snap_for_display_count": 326,
-      "geospatial_review_or_remove_count": 445,
+      "geospatial_keep_original_count": 147579,
+      "geospatial_snap_for_display_count": 3115,
+      "geospatial_review_or_remove_count": 1463,
       "vietnam_offshore_birds_hidden": true,
       "vietnam_offshore_birds_rule": "All bird observations outside Natural Earth 10m land are hidden from map; mammals unchanged",
       "vietnam_offshore_birds_newly_hidden": 0,
@@ -830,42 +830,95 @@
       "ebird_dataset_doi": "10.15468/aomfnb",
       "ebird_via": "GBIF",
       "provider_counts_raw": {
-        "inaturalist": 12609,
-        "observation": 1067
+        "observation": 67,
+        "inaturalist": 3415,
+        "ebird": 152356
       },
       "group_windows": {
         "birds": {
-          "date_from": "2025-09-25",
-          "date_to": "2026-09-25",
-          "estimated_source_records": 11387,
-          "years": 0
+          "date_from": "2024-01-01",
+          "date_to": "2024-12-31",
+          "estimated_source_records": 152356,
+          "years": 1,
+          "providers": [
+            "ebird"
+          ],
+          "provider_estimates": {
+            "ebird": 152356
+          },
+          "provider_rows_raw": {
+            "ebird": 152356
+          }
         },
         "mammals": {
-          "date_from": "2025-09-25",
+          "date_from": "2024-09-25",
           "date_to": "2026-09-25",
-          "estimated_source_records": 2289,
-          "years": 0
+          "estimated_source_records": 3482,
+          "years": 2,
+          "providers": [
+            "observation",
+            "inaturalist"
+          ],
+          "provider_estimates": {
+            "observation": 67,
+            "inaturalist": 3415
+          },
+          "provider_rows_raw": {
+            "observation": 67,
+            "inaturalist": 3415
+          }
         }
       },
       "selection_policy": {
-        "version": "group-adaptive-v1",
-        "target_observations_per_group": 100000,
-        "min_years": 1,
-        "groups": {
-          "birds": [
-            "observation",
-            "inaturalist",
+        "version": "provider-unified-v3.2",
+        "birds": {
+          "years": 1,
+          "providers": [
             "ebird"
           ],
-          "mammals": [
+          "anchor": "latest published eBird EOD datapoint",
+          "observation_org_enabled": false,
+          "inaturalist_enabled": false
+        },
+        "mammals": {
+          "min_years": 1,
+          "max_years": 2,
+          "extend_if_below": 5000,
+          "providers": [
             "observation",
             "inaturalist"
           ]
         }
       },
       "geospatial_review_hidden": true,
-      "geospatial_review_newly_hidden": 0,
-      "geospatial_already_hidden": 0
+      "geospatial_review_newly_hidden": 5,
+      "geospatial_already_hidden": 0,
+      "provider_windows": {
+        "birds:ebird": {
+          "provider": "ebird",
+          "group": "birds",
+          "date_from": "2024-01-01",
+          "date_to": "2024-12-31",
+          "estimated_source_records": 152356,
+          "rows_raw": 152356
+        },
+        "mammals:observation": {
+          "provider": "observation",
+          "group": "mammals",
+          "date_from": "2024-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 67,
+          "rows_raw": 67
+        },
+        "mammals:inaturalist": {
+          "provider": "inaturalist",
+          "group": "mammals",
+          "date_from": "2024-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 3415,
+          "rows_raw": 3415
+        }
+      }
     }
   ]
 }
