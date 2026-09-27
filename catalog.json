@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2026.09.26.2209",
-  "updated": "2026-09-26",
+  "catalog_version": "2026.09.25.1215",
+  "updated": "2026-09-27",
   "packs": [
     {
       "id": "am_1y",
@@ -352,27 +352,27 @@
       "id": "india_1y",
       "name": "India",
       "country_code": "IN",
-      "version": "2026.09.24",
-      "period_start": "2025-09-24",
-      "period_end": "2026-09-24",
-      "observation_count": 132282,
-      "south": 6.808117,
-      "west": 68.514789,
-      "north": 35.013518,
-      "east": 97.07824,
+      "version": "2026.09.25.1215",
+      "period_start": "2024-01-01",
+      "period_end": "2026-09-25",
+      "observation_count": 11326331,
+      "south": 6.27564,
+      "west": 68.404816,
+      "north": 36.830906,
+      "east": 97.08315,
       "regions_enabled": false,
-      "bird_observations": 120179,
-      "mammal_observations": 12103,
-      "species_count": 1289,
-      "first_observation_date": "2025-09-24",
+      "bird_observations": 11314254,
+      "mammal_observations": 12077,
+      "species_count": 1393,
+      "first_observation_date": "2024-01-01",
       "last_observation_date": "2026-09-08",
       "region_count": 0,
-      "unassigned_region_count": 132282,
-      "size_bytes": 11646878,
-      "uncompressed_size_bytes": 46534656,
+      "unassigned_region_count": 11326331,
+      "size_bytes": 796069038,
+      "uncompressed_size_bytes": 3991269376,
       "archive": "zip",
-      "sha256": "5b0828dc365467e2d507abd6bca3f7bc2689b93b8c07d4ff850d7d61b71e132d",
-      "sqlite_sha256": "7a48303796ca4bc044ba52197f4cd562528ed36a476b2c0695a9d44d75ea3575",
+      "sha256": "f9487c3c2e4e00a470e732916665ff671793fc7c7d5684ca4e8dcf60d385550e",
+      "sqlite_sha256": "a634661a8dda00ec8651c644571605b8a8ceaa2ee898c99e3921ea1f8b77ee37",
       "file_name": "india_1y.sqlite3.zip",
       "taxonomy_cleaned": true,
       "taxonomy_source": "GBIF Species Backbone",
@@ -381,20 +381,111 @@
       "mammal_display_name_source": "ASM Mammal Diversity Database v2.5",
       "curated_english_names": true,
       "curated_taxon_corrections": true,
-      "bird_curated_name_species": 1115,
+      "bird_curated_name_species": 1219,
       "bird_scientific_fallback_species": 4,
       "mammal_curated_name_species": 167,
       "mammal_scientific_fallback_species": 3,
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09/india_1y.sqlite3.zip",
       "geospatial_display_cleaned": true,
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
-      "geospatial_keep_original_count": 130651,
-      "geospatial_snap_for_display_count": 673,
-      "geospatial_review_or_remove_count": 958,
-      "inaturalist_high_uncertainty_hidden": true,
+      "geospatial_keep_original_count": 11206362,
+      "geospatial_snap_for_display_count": 64945,
+      "geospatial_review_or_remove_count": 55024,
+      "inaturalist_high_uncertainty_hidden": false,
       "inaturalist_uncertainty_threshold_m": 30000.0,
       "inaturalist_high_uncertainty_newly_hidden": 7704,
-      "inaturalist_high_uncertainty_already_hidden": 0
+      "inaturalist_high_uncertainty_already_hidden": 0,
+      "provider_counts_raw": {
+        "observation": 93,
+        "inaturalist": 12000,
+        "ebird": 11602791
+      },
+      "provider_windows": {
+        "birds:ebird": {
+          "provider": "ebird",
+          "group": "birds",
+          "date_from": "2024-01-01",
+          "date_to": "2024-12-31",
+          "estimated_source_records": 11602791,
+          "rows_raw": 11602791
+        },
+        "mammals:observation": {
+          "provider": "observation",
+          "group": "mammals",
+          "date_from": "2025-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 93,
+          "rows_raw": 93
+        },
+        "mammals:inaturalist": {
+          "provider": "inaturalist",
+          "group": "mammals",
+          "date_from": "2025-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 12000,
+          "rows_raw": 12000
+        }
+      },
+      "ebird_enabled": true,
+      "group_windows": {
+        "birds": {
+          "date_from": "2024-01-01",
+          "date_to": "2024-12-31",
+          "estimated_source_records": 11602791,
+          "years": 1,
+          "providers": [
+            "ebird"
+          ],
+          "provider_estimates": {
+            "ebird": 11602791
+          },
+          "provider_rows_raw": {
+            "ebird": 11602791
+          }
+        },
+        "mammals": {
+          "date_from": "2025-09-25",
+          "date_to": "2026-09-25",
+          "estimated_source_records": 12093,
+          "years": 1,
+          "providers": [
+            "observation",
+            "inaturalist"
+          ],
+          "provider_estimates": {
+            "observation": 93,
+            "inaturalist": 12000
+          },
+          "provider_rows_raw": {
+            "observation": 93,
+            "inaturalist": 12000
+          }
+        }
+      },
+      "selection_policy": {
+        "version": "provider-unified-v3.2",
+        "birds": {
+          "years": 1,
+          "providers": [
+            "ebird"
+          ],
+          "anchor": "latest published eBird EOD datapoint",
+          "observation_org_enabled": false,
+          "inaturalist_enabled": false
+        },
+        "mammals": {
+          "min_years": 1,
+          "max_years": 2,
+          "extend_if_below": 5000,
+          "providers": [
+            "observation",
+            "inaturalist"
+          ]
+        }
+      },
+      "geospatial_review_hidden": true,
+      "geospatial_review_newly_hidden": 12,
+      "geospatial_already_hidden": 0
     },
     {
       "id": "italy_1y",
