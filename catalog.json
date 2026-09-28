@@ -1340,7 +1340,7 @@
       "id": "india_1y",
       "name": "India",
       "country_code": "IN",
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-08",
       "observation_count": 1368329,
@@ -1393,12 +1393,12 @@
       "geospatial_snap_for_display_count": 23266,
       "geospatial_hidden_count": 1150,
       "geospatial_marine_kept_count": 231,
-      "size_bytes": 129584806,
-      "uncompressed_size_bytes": 484487168,
-      "sha256": "7abe18fe672ae70f3aac007af3bce49509ae2244783b42fa70bf7dc0a50afdb1",
-      "sqlite_sha256": "87870942cb77656199c8f909f0487f6aeefa9010f94f8329f041e461c9a7eb5e",
+      "size_bytes": 142257060,
+      "uncompressed_size_bytes": 498647040,
+      "sha256": "39470ad2ed87e217617d2e15a2f3d02d518662962f73f29cc4401c893bd7f6b1",
+      "sqlite_sha256": "4f64dbbb1050403fd285d1948f57b4d2763d390cc407a84fa8e72d3a6cad8be1",
       "file_name": "india_1y.sqlite3.zip",
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 64484,
         "freshwater": 32789,
@@ -1406,7 +1406,7 @@
         "marine": 8687
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "IN",
         "names": [
           "bubulcus ibis",
@@ -1427,7 +1427,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/india_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 1,
+        "source_occurrences": 1
+      },
+      "species_photo_summary": {
+        "species": 1493,
+        "photos": 1465,
+        "added": 1465,
+        "misses": 25,
+        "api_lookups": 1125,
+        "photo_bytes_added": 11362872
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 1465,
+      "species_photo_bytes": 11362872,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/india_1y.sqlite3.zip"
     },
     {
       "id": "italy_1y",
