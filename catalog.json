@@ -1622,7 +1622,7 @@
       "name": "Jordan",
       "country_code": "JO",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-05",
       "observation_count": 8978,
@@ -1667,29 +1667,28 @@
       "geospatial_snap_for_display_count": 36,
       "geospatial_hidden_count": 1,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 678008,
-      "uncompressed_size_bytes": 3387392,
-      "sha256": "f5f07cb5baf6feeceed51af024450b1b389a4c06dc1f9a8612dae8eff59815ec",
-      "sqlite_sha256": "91286787066abcd577ea7506a8c2933d6e546b39df0d22bcc009e522c4a71b50",
+      "size_bytes": 2617395,
+      "uncompressed_size_bytes": 5595136,
+      "sha256": "0ae8ba809fa1491c4610740a5efcf41101d6322b9485e3008ddd82783c40a782",
+      "sqlite_sha256": "5ddbe42c38d1f51aa318aa925d96bfe5fe59c02614bf31f3039a609252b62040",
       "file_name": "jordan_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 300,
+        "habitat_approximation": 319,
         "freshwater": 168,
         "marine": 41,
         "hidden_unresolved": 13
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "JO",
         "names": [
           "acridotheres ginginianus",
           "acridotheres tristis",
           "agapornis roseicollis",
           "canis familiaris",
-          "canis lupus",
           "capra nubiana",
           "capreolus capreolus",
           "corvus splendens",
@@ -1713,11 +1712,9 @@
           "rattus rattus",
           "rhodospiza obsoleta",
           "sciurus anomalus",
-          "spilopelia senegalensis",
           "streptopelia decaocto",
           "streptopelia senegalensis",
-          "sus scrofa",
-          "taeniopygia guttata"
+          "sus scrofa"
         ],
         "ambiguous_not_hidden": [
           "Equus hemionus hemippus",
@@ -1729,11 +1726,27 @@
         "title": "Global Register of Introduced and Invasive Species - Jordan",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 889
+        "hidden_rows": 561
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/jordan_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 321,
+        "photos": 317,
+        "added": 317,
+        "misses": 4,
+        "api_lookups": 40,
+        "photo_bytes_added": 1888442
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 317,
+      "species_photo_bytes": 1888442,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/jordan_1y.sqlite3.zip"
     },
     {
       "id": "nl_1y",
