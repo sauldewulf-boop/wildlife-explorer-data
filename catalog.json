@@ -2161,7 +2161,7 @@
       "name": "Spain",
       "country_code": "ES",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 910837,
@@ -2206,22 +2206,22 @@
       "geospatial_snap_for_display_count": 42739,
       "geospatial_hidden_count": 2768,
       "geospatial_marine_kept_count": 2821,
-      "size_bytes": 86249208,
-      "uncompressed_size_bytes": 308015104,
-      "sha256": "06353be17b04332050669e34728257bdfb6489f67a06f514b62dc332cd9a9805",
-      "sqlite_sha256": "1c917598add15de48323644833c2a547f553017b865706b371b2339232935fad",
+      "size_bytes": 91559084,
+      "uncompressed_size_bytes": 313470976,
+      "sha256": "062219eae0e1d76f57070b08023d67ffe24a5ed91ef1a9eb27358aa1593af0ed",
+      "sqlite_sha256": "930e8b73a56523d64ac7e76de4342c9d0bf76cb2715fd47ddc6c7790b53cda15",
       "file_name": "spain_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 49814,
-        "freshwater": 31790,
+        "habitat_approximation": 49817,
+        "freshwater": 31789,
         "marine": 18166,
         "hidden_unresolved": 1343
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "ES",
         "names": [
           "alopochen aegyptiaca",
@@ -2253,7 +2253,6 @@
           "nyctereutes procyonoides",
           "ondatra zibethicus",
           "oryctolagus cuniculus",
-          "ovis aries",
           "ovis musimon",
           "ovis orientalis",
           "oxyura jamaicensis",
@@ -2282,11 +2281,27 @@
         "title": "Global Register of Introduced and Invasive Species - Spain",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 25902
+        "hidden_rows": 25768
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/spain_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 3,
+        "source_occurrences": 23
+      },
+      "species_photo_summary": {
+        "species": 714,
+        "photos": 697,
+        "added": 697,
+        "misses": 15,
+        "api_lookups": 55,
+        "photo_bytes_added": 4764518
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 697,
+      "species_photo_bytes": 4764518,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/spain_1y.sqlite3.zip"
     },
     {
       "id": "thailand_1y",
