@@ -631,7 +631,7 @@
       "name": "France",
       "country_code": "FR",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 799808,
@@ -676,22 +676,22 @@
       "geospatial_snap_for_display_count": 50352,
       "geospatial_hidden_count": 3140,
       "geospatial_marine_kept_count": 1655,
-      "size_bytes": 72252512,
-      "uncompressed_size_bytes": 268001280,
-      "sha256": "d95285097cbc32804962acee114b86e41ddc3911b59cb98dde5c01a508764bb4",
-      "sqlite_sha256": "5d27153f21b5b9cc167a8eb517ce30be20c71d4d20f4fff79894cfd683987759",
+      "size_bytes": 77177688,
+      "uncompressed_size_bytes": 272936960,
+      "sha256": "c210ad348a4cba6a646c8523b313ceeb7840d5174a0b64a1a19c6daa7a85fa10",
+      "sqlite_sha256": "b4596463c9db703d8eb5552f5355fbaa2da162642f26fcd50eb3dac0d7eda9cc",
       "file_name": "fr_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 55539,
-        "freshwater": 33904,
+        "habitat_approximation": 55542,
+        "freshwater": 33895,
         "marine": 19687,
         "hidden_unresolved": 2755
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "FR",
         "names": [
           "acridotheres tristis",
@@ -703,9 +703,6 @@
           "amandava amandava",
           "ammotragus lervia",
           "anas bahamensis",
-          "anas cyanoptera",
-          "anas discors",
-          "anas formosa",
           "aythya valisineria",
           "bos taurus",
           "branta canadensis",
@@ -715,7 +712,6 @@
           "callonetta leucophrys",
           "callosciurus erythraeus",
           "canis familiaris",
-          "canis lupus",
           "capra hircus",
           "cervus nippon",
           "colinus virginianus",
@@ -738,7 +734,6 @@
           "mustela vison",
           "myiopsitta monachus",
           "myocastor coypus",
-          "neovison vison",
           "netta peposaca",
           "nyctereutes procyonoides",
           "nymphicus hollandicus",
@@ -759,7 +754,6 @@
           "spatula discors",
           "streptopelia decaocto",
           "sus domesticus",
-          "sus scrofa",
           "syrmaticus reevesii",
           "tamias sibiricus",
           "threskiornis aethiopicus"
@@ -777,11 +771,27 @@
         "title": "Global Register of Introduced and Invasive Species - France",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 27545
+        "hidden_rows": 27474
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/fr_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 7,
+        "source_occurrences": 35
+      },
+      "species_photo_summary": {
+        "species": 654,
+        "photos": 640,
+        "added": 640,
+        "misses": 14,
+        "api_lookups": 198,
+        "photo_bytes_added": 4394546
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 640,
+      "species_photo_bytes": 4394546,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/fr_1y.sqlite3.zip"
     },
     {
       "id": "gabon_1y",
