@@ -901,7 +901,7 @@
       "name": "Georgia",
       "country_code": "GE",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 38326,
@@ -946,14 +946,14 @@
       "geospatial_snap_for_display_count": 1968,
       "geospatial_hidden_count": 24,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 3388148,
-      "uncompressed_size_bytes": 13570048,
-      "sha256": "5fe1f4fb20a587b1da98c6eafac35bd3235cdd48dfeff055c665f26fd59f8aa9",
-      "sqlite_sha256": "7a7217bc3cec2854fe3c7a203284fd74acb5e7668ece7069e8365ef9dc645e37",
+      "size_bytes": 5949912,
+      "uncompressed_size_bytes": 16449536,
+      "sha256": "f182de79fbead6351ecd4b1cfe6ab7dbbb75a133a539b7bfe33aab4f811a1840",
+      "sqlite_sha256": "41781f2e74093e642315ddb860a3ef15af26936f2aabeb96b1aac13ff059731f",
       "file_name": "ge_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 4696,
         "hidden_unresolved": 340,
@@ -961,7 +961,7 @@
         "marine": 783
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "GE",
         "names": [
           "acridotheres tristis",
@@ -969,13 +969,11 @@
           "bos taurus",
           "bubulcus ibis",
           "canis familiaris",
-          "canis lupus",
           "capra hircus",
           "cervus dama",
           "chlamydotis macqueenii",
           "columba livia",
           "cygnus atratus",
-          "dama dama",
           "equus caballus",
           "felis catus",
           "mustela vison",
@@ -1003,11 +1001,27 @@
         "title": "Global Register of Introduced and Invasive Species - Georgia",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 966
+        "hidden_rows": 965
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/ge_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 412,
+        "photos": 403,
+        "added": 403,
+        "misses": 9,
+        "api_lookups": 19,
+        "photo_bytes_added": 2480254
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 403,
+      "species_photo_bytes": 2480254,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/ge_1y.sqlite3.zip"
     },
     {
       "id": "germany_1y",
