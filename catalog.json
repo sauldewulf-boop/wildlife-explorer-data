@@ -797,7 +797,7 @@
       "id": "gabon_1y",
       "name": "Gabon",
       "country_code": "GA",
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-02",
       "period_end": "2026-09-04",
       "observation_count": 9549,
@@ -848,14 +848,14 @@
       "geospatial_snap_for_display_count": 1299,
       "geospatial_hidden_count": 6,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 940036,
-      "uncompressed_size_bytes": 4210688,
-      "sha256": "14fb263792af5b3e98370fa663b7970f0d8c21eab11e3971c46ba8f0d05924f1",
-      "sqlite_sha256": "15739b0c991536595dbdee59a271d47c9b5a3dd81c26b8d4037f4c9a3010e1c0",
+      "size_bytes": 5660148,
+      "uncompressed_size_bytes": 9408512,
+      "sha256": "13d442b40da6976d187f2072d39fc15e90e07a7b2db4b346cccb761e746db3ad",
+      "sqlite_sha256": "ccc5f31fed57e0a8655a1d30e665d37566cd448264c77a3b0653e372f4f8bf62",
       "file_name": "gabon_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 854,
         "hidden_unresolved": 445,
@@ -863,7 +863,7 @@
         "freshwater": 279
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "GA",
         "names": [
           "sus scrofa"
@@ -878,7 +878,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/gabon_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 610,
+        "photos": 599,
+        "added": 599,
+        "misses": 9,
+        "api_lookups": 523,
+        "photo_bytes_added": 4640464
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 599,
+      "species_photo_bytes": 4640464,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/gabon_1y.sqlite3.zip"
     },
     {
       "id": "ge_1y",
