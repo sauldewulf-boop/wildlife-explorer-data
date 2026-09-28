@@ -2024,7 +2024,7 @@
       "name": "Portugal",
       "country_code": "PT",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 375489,
@@ -2069,14 +2069,14 @@
       "geospatial_snap_for_display_count": 23241,
       "geospatial_hidden_count": 1030,
       "geospatial_marine_kept_count": 1576,
-      "size_bytes": 33240198,
-      "uncompressed_size_bytes": 124448768,
-      "sha256": "c190a6db3be10f344e601a7c05475522e8ba516644e5bdb9eecdcc03a6243497",
-      "sqlite_sha256": "4dd260a0f45bbd12105d18808f8eb755de0729d6a4a342c23f4f875bdcaa5718",
+      "size_bytes": 37171944,
+      "uncompressed_size_bytes": 128782336,
+      "sha256": "017c700695da4d3c69e19669ebf18b9cafc827c2185679591acfc36e92e9c44f",
+      "sqlite_sha256": "43fbce4ff4dc6ec7b18d602c25d20f429a3203304518e154227233bdac74d16a",
       "file_name": "portugal_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 26642,
         "freshwater": 13906,
@@ -2084,7 +2084,7 @@
         "hidden_unresolved": 1624
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "PT",
         "names": [
           "alectoris rufa",
@@ -2098,7 +2098,6 @@
           "estrilda astrild",
           "estrilda melpoda",
           "estrilda troglodytes",
-          "euodice cantans",
           "euplectes afer",
           "euplectes franciscanus",
           "euplectes hordeaceus",
@@ -2139,7 +2138,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/portugal_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 573,
+        "photos": 557,
+        "added": 557,
+        "misses": 14,
+        "api_lookups": 70,
+        "photo_bytes_added": 3669302
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 557,
+      "species_photo_bytes": 3669302,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/portugal_1y.sqlite3.zip"
     },
     {
       "id": "spain_1y",
