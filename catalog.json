@@ -1450,7 +1450,7 @@
       "name": "Italy",
       "country_code": "IT",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 346480,
@@ -1495,22 +1495,22 @@
       "geospatial_snap_for_display_count": 22044,
       "geospatial_hidden_count": 527,
       "geospatial_marine_kept_count": 423,
-      "size_bytes": 30823080,
-      "uncompressed_size_bytes": 118263808,
-      "sha256": "42ca12f151ca00a71c33a3f46b63d1d950ddcc2c4b5e24d11130abd1febdb70e",
-      "sqlite_sha256": "7e08884e753441b6c9e4706b311565dcf01273d624e6d78ccae01af7f254acba",
+      "size_bytes": 35005480,
+      "uncompressed_size_bytes": 122765312,
+      "sha256": "b7a64dc81aee3f9ac1b7b1bf0a48bdbf5f1c6bcfd2c4d453a9998e0197686e56",
+      "sqlite_sha256": "9db74367f3034da7405fc956d0f89bf2ee98fcc06b950f5bdb6793920557537b",
       "file_name": "italy_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 25461,
-        "freshwater": 16173,
+        "freshwater": 16171,
         "marine": 8560,
         "hidden_unresolved": 1062
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "IT",
         "names": [
           "acridotheres tristis",
@@ -1525,7 +1525,6 @@
           "ammotragus lervia",
           "anser cygnoides",
           "anser indicus",
-          "aratinga acuticaudata",
           "branta canadensis",
           "cacatua galerita",
           "callosciurus erythraeus",
@@ -1564,7 +1563,6 @@
           "rattus norvegicus",
           "rattus rattus",
           "sciurus carolinensis",
-          "sinosuthora webbiana",
           "streptopelia senegalensis",
           "suncus etruscus",
           "sylvilagus floridanus",
@@ -1601,7 +1599,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/italy_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 4,
+        "source_occurrences": 8
+      },
+      "species_photo_summary": {
+        "species": 592,
+        "photos": 582,
+        "added": 582,
+        "misses": 10,
+        "api_lookups": 29,
+        "photo_bytes_added": 3937698
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 582,
+      "species_photo_bytes": 3937698,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/italy_1y.sqlite3.zip"
     },
     {
       "id": "jordan_1y",
