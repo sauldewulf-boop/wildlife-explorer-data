@@ -1842,7 +1842,7 @@
       "id": "new_zealand_1y",
       "name": "New Zealand",
       "country_code": "NZ",
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-08",
       "observation_count": 292908,
@@ -1887,25 +1887,24 @@
       "geospatial_snap_for_display_count": 48373,
       "geospatial_hidden_count": 3055,
       "geospatial_marine_kept_count": 13511,
-      "size_bytes": 26465212,
-      "uncompressed_size_bytes": 103886848,
-      "sha256": "121360ba782b528efc087c8ab6e0cdcc2a36dbdffd674ffc399891a491b1cbb5",
-      "sqlite_sha256": "c7c8b8aea7ec0eb44cb3d34b20ab0723be81649c412e39a056228cc8a6382c6d",
+      "size_bytes": 29057813,
+      "uncompressed_size_bytes": 105488384,
+      "sha256": "40997b592bd1648cd0a3cd4fed7bc401ba07556fccac369da1c5a1df8b309be3",
+      "sqlite_sha256": "9d4ec8d2fd5716ac0e1e80a621c54af6478aeb9fa656f06dc242dac295d1b6d2",
       "file_name": "new_zealand_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 15669,
+        "habitat_approximation": 16258,
         "marine": 32345,
         "freshwater": 12095,
-        "hidden_unresolved": 1977
+        "hidden_unresolved": 1997
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "NZ",
         "names": [
-          "acanthis flammea",
           "acridotheres tristis",
           "alauda arvensis",
           "alectoris chukar",
@@ -1924,7 +1923,6 @@
           "cervus elaphus",
           "cervus nippon",
           "cervus unicolor",
-          "chloris chloris",
           "colinus virginianus",
           "columba livia",
           "corvus frugilegus",
@@ -1963,7 +1961,6 @@
           "rattus rattus",
           "rupicapra rupicapra",
           "rusa timorensis",
-          "rusa unicolor",
           "streptopelia risoria",
           "sturnus vulgaris",
           "sus scrofa",
@@ -1985,11 +1982,27 @@
         "title": "Global Register of Introduced and Invasive Species - New Zealand",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 97333
+        "hidden_rows": 92968
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/new_zealand_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 352,
+        "photos": 346,
+        "added": 346,
+        "misses": 3,
+        "api_lookups": 210,
+        "photo_bytes_added": 2638294
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 346,
+      "species_photo_bytes": 2638294,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/new_zealand_1y.sqlite3.zip"
     },
     {
       "id": "portugal_1y",
