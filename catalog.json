@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.09.28.photos1",
+  "catalog_version": "2026.09.28.photos2",
   "updated": "2026-09-28",
   "packs": [
     {
@@ -7,7 +7,7 @@
       "name": "Armenia",
       "country_code": "AM",
       "schema_version": 1,
-      "version": "2026.09.28.photos1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-06",
       "observation_count": 15601,
@@ -52,10 +52,10 @@
       "geospatial_snap_for_display_count": 0,
       "geospatial_hidden_count": 0,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 2988708,
-      "uncompressed_size_bytes": 7725056,
-      "sha256": "f5ae217cebdd3c48a69a644eeb84b7988d19fdf96e44c5fbd23579cd2dbf3d57",
-      "sqlite_sha256": "6067741c8078aacaac7e0d8793b765118479ea644f075e8016470a4504d8e48a",
+      "size_bytes": 3294650,
+      "uncompressed_size_bytes": 8073216,
+      "sha256": "2a738501f8f78c6c3b5b5aaa957ab0ff5660b4fd49b8302b8c56894ed47572eb",
+      "sqlite_sha256": "41cb54aa2e1865ba45a85df65f2a6eba5ceb03c553eba0770a49b36d69dde44a",
       "file_name": "am_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -86,17 +86,17 @@
       },
       "species_photo_summary": {
         "species": 346,
-        "photos": 339,
-        "added": 143,
+        "photos": 340,
+        "added": 340,
         "misses": 6,
-        "api_lookups": 135,
-        "photo_bytes_added": 801100
+        "api_lookups": 45,
+        "photo_bytes_added": 1972566
       },
       "species_photo_source": "https://www.inaturalist.org/",
       "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 339,
-      "species_photo_bytes": 1664092,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos1/am_1y.sqlite3.zip"
+      "species_photo_count": 340,
+      "species_photo_bytes": 1972566,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/am_1y.sqlite3.zip"
     },
     {
       "id": "be_1y",
