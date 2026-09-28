@@ -2172,7 +2172,7 @@
       "name": "Türkiye",
       "country_code": "TR",
       "schema_version": 1,
-      "version": "2026.09.27.all2",
+      "version": "2026.09.28.quality1",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 190687,
@@ -2210,21 +2210,52 @@
       "source_gbif_sql_doi": "10.15468/dl.uynwhd",
       "summary_resolution_degrees": 0.1,
       "ebird_summary_approximate_locations": true,
-      "location_precision_note": "All source locations are species/month/cell means, not individual sightings",
+      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
       "taxonomy_unmatched_species_count": 74,
       "geospatial_display_cleaned": true,
-      "geospatial_display_method": "Natural Earth 10m: terrestrial offshore points snapped for display near shore or hidden; source coordinates retained",
+      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
       "geospatial_snap_for_display_count": 11704,
       "geospatial_hidden_count": 496,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 15795229,
-      "uncompressed_size_bytes": 65662976,
-      "sha256": "e9ce13c3662fb07ae345adc175fb5f4603eecb24a27e0ca91f61ee0dca960c04",
-      "sqlite_sha256": "76a169fe7f27225ec1cfbb56ff26a999d6f062d270daa1f72c8428f2e318658d",
+      "size_bytes": 16604995,
+      "uncompressed_size_bytes": 67760128,
+      "sha256": "49c040279d52beb43f571644658a647073ef9f1cf31c68a08877572cdd0aa6c3",
+      "sqlite_sha256": "6b6ab324e4c1afb30814a51a3afeb6ab15137d6be488c57882d25c8034e20b00",
       "file_name": "t_rkiye_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.27.all2/t_rkiye_1y.sqlite3.zip"
+      "display_quality_version": "habitat-cell-v3",
+      "display_quality_counts": {
+        "habitat_approximation": 22687,
+        "freshwater": 10726,
+        "marine": 5145,
+        "hidden_unresolved": 1248
+      },
+      "introduced_species_review": {
+        "parser_version": 2,
+        "country_code": "TR",
+        "names": [
+          "acridotheres tristis",
+          "corvus splendens",
+          "myocastor coypus",
+          "psittacula eupatria",
+          "psittacula krameri",
+          "spilopelia senegalensis",
+          "streptopelia senegalensis"
+        ],
+        "ambiguous_not_hidden": [
+          "Phasianus colchicus karpowi Buturlin, 1904"
+        ],
+        "dataset_key": "acaa145f-7944-4bc8-a4cc-4e3410c41e99",
+        "source": "https://www.gbif.org/dataset/acaa145f-7944-4bc8-a4cc-4e3410c41e99",
+        "title": "Global Register of Introduced and Invasive Species - Turkey",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "fetched": "2026-09-28",
+        "hidden_rows": 2672
+      },
+      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
+      "landcover_license": "CC BY 4.0",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/t_rkiye_1y.sqlite3.zip"
     },
     {
       "id": "viet_nam_1y",
