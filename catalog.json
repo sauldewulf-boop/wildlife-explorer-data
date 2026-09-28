@@ -103,7 +103,7 @@
       "name": "Belgium",
       "country_code": "BE",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 84093,
@@ -148,14 +148,14 @@
       "geospatial_snap_for_display_count": 128,
       "geospatial_hidden_count": 95,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 7469705,
-      "uncompressed_size_bytes": 28635136,
-      "sha256": "e8ff0083a8b3db706bfb74b18dadd441756de0a6428d91389d1ffdb866d63bed",
-      "sqlite_sha256": "736ea9eaad5e94e2c5665d973284a805f409abb8d3746de6c1db10e0cb9332c8",
+      "size_bytes": 10251518,
+      "uncompressed_size_bytes": 31793152,
+      "sha256": "713f64f78bfdb94c7ff5f4d79a27ccda68452238fa928b13b459eb2cd0c418cf",
+      "sqlite_sha256": "f57b1361a87e5930201440cf79a3a6d630453424804d5eb6eb8c4624884579f4",
       "file_name": "be_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 4008,
         "freshwater": 3323,
@@ -163,7 +163,7 @@
         "hidden_unresolved": 80
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "BE",
         "names": [
           "acridotheres cristatellus",
@@ -608,7 +608,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/be_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 2,
+        "source_occurrences": 4
+      },
+      "species_photo_summary": {
+        "species": 432,
+        "photos": 422,
+        "added": 422,
+        "misses": 10,
+        "api_lookups": 123,
+        "photo_bytes_added": 2714578
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 422,
+      "species_photo_bytes": 2714578,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/be_1y.sqlite3.zip"
     },
     {
       "id": "fr_1y",
