@@ -2308,7 +2308,7 @@
       "name": "Thailand",
       "country_code": "TH",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 316701,
@@ -2357,14 +2357,14 @@
       "geospatial_snap_for_display_count": 12187,
       "geospatial_hidden_count": 1715,
       "geospatial_marine_kept_count": 594,
-      "size_bytes": 28187126,
-      "uncompressed_size_bytes": 112246784,
-      "sha256": "21fd772f10cc4a32ee0e7b7cf0d8c42dbdc3d551666626c2d5916f94a0391282",
-      "sqlite_sha256": "6340ab5b1de6cf159c8bf8ce6ff73dd764740434883f7266fe936c8604c34f06",
+      "size_bytes": 37265739,
+      "uncompressed_size_bytes": 122249216,
+      "sha256": "217f83600dfffecf1e963bba250302749ce705f5996af16fd7a3deeee05457e7",
+      "sqlite_sha256": "10afc78db3a2ab61012bdb4c6962f840fb80acf03efcf4840f7e37c2c14e7e0c",
       "file_name": "thailand_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "freshwater": 7895,
         "habitat_approximation": 21317,
@@ -2372,7 +2372,7 @@
         "marine": 2302
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "TH",
         "names": [
           "acridotheres javanicus",
@@ -2389,7 +2389,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/thailand_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 1152,
+        "photos": 1135,
+        "added": 1135,
+        "misses": 16,
+        "api_lookups": 416,
+        "photo_bytes_added": 8760664
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 1135,
+      "species_photo_bytes": 8760664,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/thailand_1y.sqlite3.zip"
     },
     {
       "id": "t_rkiye_1y",
