@@ -1028,7 +1028,7 @@
       "name": "Germany",
       "country_code": "DE",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 1028665,
@@ -1073,22 +1073,22 @@
       "geospatial_snap_for_display_count": 34089,
       "geospatial_hidden_count": 2693,
       "geospatial_marine_kept_count": 906,
-      "size_bytes": 90051752,
-      "uncompressed_size_bytes": 339578880,
-      "sha256": "1a78424c59ee5b1250d676d596819f8b87f12c5cc400ee1e592862397bcd712d",
-      "sqlite_sha256": "7d4357b6032b88a886aeddb7ee94fe6f28c2a6d5e504a51ba9651d8f5578efba",
+      "size_bytes": 94914876,
+      "uncompressed_size_bytes": 344829952,
+      "sha256": "d584073b8c09ddf3a1a9ea6f4ccf7e0d8b75f3119f1ab6499bef7299c2abdf83",
+      "sqlite_sha256": "c89cd91f49115476b762fdfbeeb7eb70e98aeffbfa9192649f02f1d1521a85af",
       "file_name": "germany_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 69392,
-        "freshwater": 45715,
+        "habitat_approximation": 69391,
+        "freshwater": 45697,
         "marine": 14266,
-        "hidden_unresolved": 3125
+        "hidden_unresolved": 3124
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "DE",
         "names": [
           "acridotheres ginginianus",
@@ -1137,7 +1137,6 @@
           "chenonetta jubata",
           "chloephaga picta",
           "chloephaga poliocephala",
-          "chloris sinica",
           "ciconia abdimii",
           "cinnyricinclus leucogaster",
           "corvus albus",
@@ -1156,7 +1155,6 @@
           "grus leucogeranus",
           "haliaeetus leucoryphus",
           "histrionicus histrionicus",
-          "lophodytes cucullatus",
           "lophonetta specularioides",
           "marmaronetta angustirostris",
           "melanerpes carolinus",
@@ -1210,7 +1208,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/germany_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 10,
+        "source_occurrences": 127
+      },
+      "species_photo_summary": {
+        "species": 594,
+        "photos": 580,
+        "added": 580,
+        "misses": 12,
+        "api_lookups": 56,
+        "photo_bytes_added": 3979388
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 580,
+      "species_photo_bytes": 3979388,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/germany_1y.sqlite3.zip"
     },
     {
       "id": "greece_1y",
