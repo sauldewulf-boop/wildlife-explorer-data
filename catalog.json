@@ -1753,7 +1753,7 @@
       "name": "Netherlands",
       "country_code": "NL",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 1023453,
@@ -1798,28 +1798,27 @@
       "geospatial_snap_for_display_count": 70101,
       "geospatial_hidden_count": 2910,
       "geospatial_marine_kept_count": 986,
-      "size_bytes": 72847273,
-      "uncompressed_size_bytes": 329322496,
-      "sha256": "2b703615db285b701d3134a38b59d1411823e4b383a30c108a1594dc023ac5b4",
-      "sqlite_sha256": "be7e06f4903b4e1e4edaca9904c7776622c0b2f7c8989432d76794a0a2ba3c50",
+      "size_bytes": 77766668,
+      "uncompressed_size_bytes": 334671872,
+      "sha256": "b47171a1b099ddb7d2b32b39a8175aa53704a4f7077c464a68e2824d58da3f73",
+      "sqlite_sha256": "3facc1c06d67dc03e91acf7e481c7b3d7622df3252da656a66a75382882118c6",
       "file_name": "nl_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
-        "habitat_approximation": 85343,
-        "freshwater": 32642,
+        "habitat_approximation": 85333,
+        "freshwater": 32582,
         "marine": 17358,
-        "hidden_unresolved": 5901
+        "hidden_unresolved": 5891
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "NL",
         "names": [
           "alopochen aegyptiaca",
           "mustela vison",
           "myocastor coypus",
-          "neovison vison",
           "nyctereutes procyonoides",
           "ondatra zibethicus",
           "oxyura jamaicensis",
@@ -1836,7 +1835,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/nl_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 19,
+        "source_occurrences": 1319
+      },
+      "species_photo_summary": {
+        "species": 654,
+        "photos": 640,
+        "added": 640,
+        "misses": 13,
+        "api_lookups": 58,
+        "photo_bytes_added": 4474786
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 640,
+      "species_photo_bytes": 4474786,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/nl_1y.sqlite3.zip"
     },
     {
       "id": "new_zealand_1y",
