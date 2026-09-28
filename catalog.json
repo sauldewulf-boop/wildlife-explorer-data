@@ -1242,7 +1242,7 @@
       "id": "india_1y",
       "name": "India",
       "country_code": "IN",
-      "version": "2026.09.27.all2",
+      "version": "2026.09.28.quality1",
       "period_start": "2024-01-01",
       "period_end": "2026-09-08",
       "observation_count": 1368329,
@@ -1273,7 +1273,7 @@
       "ebird_summary_approximate_locations": true,
       "source_gbif_sql_download_key": "0009653-260921141020460",
       "source_gbif_sql_doi": "10.15468/dl.asu59e",
-      "location_precision_note": "All source locations are species/month/cell means, not individual sightings",
+      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
       "ebird_summary_overview": true,
       "taxonomy_reconciliation_complete": false,
       "english_name_fallback_species_count": 21,
@@ -1291,16 +1291,45 @@
       "source_ebird_occurrences": 11595721,
       "summary_resolution_degrees": 0.25,
       "geospatial_display_cleaned": true,
-      "geospatial_display_method": "Natural Earth 10m: terrestrial offshore points snapped for display near shore or hidden; source coordinates retained",
+      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
       "geospatial_snap_for_display_count": 23266,
       "geospatial_hidden_count": 1150,
       "geospatial_marine_kept_count": 231,
-      "size_bytes": 123903544,
-      "uncompressed_size_bytes": 463106048,
-      "sha256": "0c70dcd820c60d37c345f81555fbb7d2ac9d279b540bca22996c3746e4b750a1",
-      "sqlite_sha256": "9145d8aaedc1de0aceb79e97057d296217988b3631d32cadf7f00cac9a7a6c6a",
+      "size_bytes": 129584806,
+      "uncompressed_size_bytes": 484487168,
+      "sha256": "7abe18fe672ae70f3aac007af3bce49509ae2244783b42fa70bf7dc0a50afdb1",
+      "sqlite_sha256": "87870942cb77656199c8f909f0487f6aeefa9010f94f8329f041e461c9a7eb5e",
       "file_name": "india_1y.sqlite3.zip",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.27.all2/india_1y.sqlite3.zip"
+      "display_quality_version": "habitat-cell-v3",
+      "display_quality_counts": {
+        "habitat_approximation": 64484,
+        "freshwater": 32789,
+        "hidden_unresolved": 947,
+        "marine": 8687
+      },
+      "introduced_species_review": {
+        "parser_version": 2,
+        "country_code": "IN",
+        "names": [
+          "bubulcus ibis",
+          "capra hircus",
+          "columba livia",
+          "oryctolagus cuniculus",
+          "ovis aries"
+        ],
+        "ambiguous_not_hidden": [
+          "Axis axis (Erxleben, 1777)"
+        ],
+        "dataset_key": "b09c3987-af9a-4658-9bfd-19cf712ac3d1",
+        "source": "https://www.gbif.org/dataset/b09c3987-af9a-4658-9bfd-19cf712ac3d1",
+        "title": "Global Register of Introduced and Invasive Species - India",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "fetched": "2026-09-28",
+        "hidden_rows": 14118
+      },
+      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
+      "landcover_license": "CC BY 4.0",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/india_1y.sqlite3.zip"
     },
     {
       "id": "italy_1y",
