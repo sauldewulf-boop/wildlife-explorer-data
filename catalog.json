@@ -2396,7 +2396,7 @@
       "name": "Türkiye",
       "country_code": "TR",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 190687,
@@ -2441,14 +2441,14 @@
       "geospatial_snap_for_display_count": 11704,
       "geospatial_hidden_count": 496,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 16604995,
-      "uncompressed_size_bytes": 67760128,
-      "sha256": "49c040279d52beb43f571644658a647073ef9f1cf31c68a08877572cdd0aa6c3",
-      "sqlite_sha256": "6b6ab324e4c1afb30814a51a3afeb6ab15137d6be488c57882d25c8034e20b00",
+      "size_bytes": 20007872,
+      "uncompressed_size_bytes": 71524352,
+      "sha256": "c584be22a0dfc303e4b65c81521e576b0bf5cd728cc9560c3f6a877841958b91",
+      "sqlite_sha256": "30ef20fe4e7e5efdef51d85e044a5b7f6047345f1b8cc17bc0a8a61d930d66ed",
       "file_name": "t_rkiye_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 22687,
         "freshwater": 10726,
@@ -2456,7 +2456,7 @@
         "hidden_unresolved": 1248
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "TR",
         "names": [
           "acridotheres tristis",
@@ -2479,7 +2479,23 @@
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/t_rkiye_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 1,
+        "source_occurrences": 1
+      },
+      "species_photo_summary": {
+        "species": 524,
+        "photos": 513,
+        "added": 513,
+        "misses": 11,
+        "api_lookups": 14,
+        "photo_bytes_added": 3229070
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 513,
+      "species_photo_bytes": 3229070,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/t_rkiye_1y.sqlite3.zip"
     },
     {
       "id": "viet_nam_1y",
