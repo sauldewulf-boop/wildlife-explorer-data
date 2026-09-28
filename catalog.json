@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.09.28.quality1",
+  "catalog_version": "2026.09.28.photos1",
   "updated": "2026-09-28",
   "packs": [
     {
@@ -7,7 +7,7 @@
       "name": "Armenia",
       "country_code": "AM",
       "schema_version": 1,
-      "version": "2026.09.28.quality1",
+      "version": "2026.09.28.photos1",
       "period_start": "2024-01-01",
       "period_end": "2026-09-06",
       "observation_count": 15601,
@@ -52,39 +52,51 @@
       "geospatial_snap_for_display_count": 0,
       "geospatial_hidden_count": 0,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 1271281,
-      "uncompressed_size_bytes": 5722112,
-      "sha256": "fd5dda3aea92827c5e309ebbeea8a1ec60a9ff5098499dc8d6bbbd9dff17cbca",
-      "sqlite_sha256": "949c6b65ea80476c4676e25a4e9560779f0951c3f5c20a5c32ab4a7bcad65ddc",
+      "size_bytes": 2988708,
+      "uncompressed_size_bytes": 7725056,
+      "sha256": "f5ae217cebdd3c48a69a644eeb84b7988d19fdf96e44c5fbd23579cd2dbf3d57",
+      "sqlite_sha256": "6067741c8078aacaac7e0d8793b765118479ea644f075e8016470a4504d8e48a",
       "file_name": "am_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "display_quality_version": "habitat-cell-v3",
+      "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
         "habitat_approximation": 667,
-        "freshwater": 426,
+        "freshwater": 427,
         "marine": 148,
         "hidden_unresolved": 41
       },
       "introduced_species_review": {
-        "parser_version": 2,
+        "parser_version": 3,
         "country_code": "AM",
-        "names": [
-          "myocastor coypus",
-          "ondatra zibethicus",
-          "sus scrofa"
-        ],
+        "names": [],
         "ambiguous_not_hidden": [],
         "dataset_key": "72e7aab4-aa85-4fcf-b95e-3d835d3e408a",
         "source": "https://www.gbif.org/dataset/72e7aab4-aa85-4fcf-b95e-3d835d3e408a",
         "title": "Global Register of Introduced and Invasive Species - Armenia",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-09-28",
-        "hidden_rows": 3
+        "hidden_rows": 0
       },
       "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
       "landcover_license": "CC BY 4.0",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.quality1/am_1y.sqlite3.zip"
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "species_photo_summary": {
+        "species": 346,
+        "photos": 339,
+        "added": 143,
+        "misses": 6,
+        "api_lookups": 135,
+        "photo_bytes_added": 801100
+      },
+      "species_photo_source": "https://www.inaturalist.org/",
+      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
+      "species_photo_count": 339,
+      "species_photo_bytes": 1664092,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos1/am_1y.sqlite3.zip"
     },
     {
       "id": "be_1y",
