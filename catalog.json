@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2026.10.03",
-  "updated": "2026-10-03",
+  "catalog_version": "2026.10.03.portrait2",
+  "updated": "2026-10-04",
   "packs": [
     {
       "id": "am_1y",
@@ -277,7 +277,7 @@
       "id": "gabon_1y",
       "name": "Gabon",
       "country_code": "GA",
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.03.portrait2",
       "period_start": "2024-01-02",
       "period_end": "2026-09-04",
       "observation_count": 9549,
@@ -328,10 +328,10 @@
       "geospatial_snap_for_display_count": 1299,
       "geospatial_hidden_count": 6,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 5660148,
-      "uncompressed_size_bytes": 9408512,
-      "sha256": "13d442b40da6976d187f2072d39fc15e90e07a7b2db4b346cccb761e746db3ad",
-      "sqlite_sha256": "ccc5f31fed57e0a8655a1d30e665d37566cd448264c77a3b0653e372f4f8bf62",
+      "size_bytes": 24618212,
+      "uncompressed_size_bytes": 28864512,
+      "sha256": "38148c29789ce001e89086f20ab5ae9f4565f3ef19fed174e34c99c29aeeac40",
+      "sqlite_sha256": "10834d4bc4a8d915996e519d2c9e7bcd4359aa65fe70a841a0c7fa50e812c8c5",
       "file_name": "gabon_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -363,18 +363,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 610,
-        "photos": 599,
-        "added": 599,
-        "misses": 9,
-        "api_lookups": 523,
-        "photo_bytes_added": 4640464
+        "photos": 461,
+        "misses": 149,
+        "photo_bytes_added": 23100402,
+        "max_photo_bytes": 96000,
+        "api_lookups": 0,
+        "preparation": {
+          "cached": 461,
+          "selected": 0,
+          "no-photo": 149,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 599,
-      "species_photo_bytes": 4640464,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/gabon_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 461,
+      "species_photo_bytes": 23100402,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.03.portrait2/gabon_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 547,
+        "mammal_species": 63,
+        "total_species": 610,
+        "portrait_v2_count": 461,
+        "curated_count": 2,
+        "automatic_count": 459,
+        "no_acceptable_portrait": 149,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 75.6,
+        "photo_payload_bytes": 23100402,
+        "licences": {
+          "cc0": 29,
+          "cc-by": 63,
+          "cc-by-sa": 11,
+          "cc-by-nc": 355,
+          "cc-by-nc-sa": 3
+        },
+        "providers": {
+          "inaturalist": 460,
+          "wikimedia": 1
+        },
+        "country_code": "GA",
+        "id": "gabon_1y",
+        "name": "Gabon",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.03.portrait2",
+        "final_pack_bytes": 24618212,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "ge_1y",
