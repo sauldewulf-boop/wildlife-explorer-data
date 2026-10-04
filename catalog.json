@@ -936,7 +936,7 @@
       "id": "india_1y",
       "name": "India",
       "country_code": "IN",
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-08",
       "observation_count": 1368329,
@@ -989,10 +989,10 @@
       "geospatial_snap_for_display_count": 23266,
       "geospatial_hidden_count": 1150,
       "geospatial_marine_kept_count": 231,
-      "size_bytes": 142257060,
-      "uncompressed_size_bytes": 498647040,
-      "sha256": "39470ad2ed87e217617d2e15a2f3d02d518662962f73f29cc4401c893bd7f6b1",
-      "sqlite_sha256": "4f64dbbb1050403fd285d1948f57b4d2763d390cc407a84fa8e72d3a6cad8be1",
+      "size_bytes": 202755576,
+      "uncompressed_size_bytes": 560685056,
+      "sha256": "42b7692ee7549315cf19a52727602054c208bca727f787beea1ada4c8257592a",
+      "sqlite_sha256": "82fddd4d0fae3556868c369a04b792eff6a93c793ee5c52bd5bb33f8df667204",
       "file_name": "india_1y.sqlite3.zip",
       "display_quality_version": "habitat-cell-v4",
       "display_quality_counts": {
@@ -1028,18 +1028,59 @@
         "source_occurrences": 1
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 1493,
-        "photos": 1465,
-        "added": 1465,
-        "misses": 25,
-        "api_lookups": 1125,
-        "photo_bytes_added": 11362872
+        "photos": 1345,
+        "misses": 148,
+        "photo_bytes_added": 70646050,
+        "max_photo_bytes": 96000,
+        "api_lookups": 3390,
+        "preparation": {
+          "cached": 358,
+          "selected": 987,
+          "no-photo": 148,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 1465,
-      "species_photo_bytes": 11362872,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/india_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 1345,
+      "species_photo_bytes": 70646050,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait2/india_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 1300,
+        "mammal_species": 193,
+        "total_species": 1493,
+        "portrait_v2_count": 1345,
+        "curated_count": 3,
+        "automatic_count": 1342,
+        "no_acceptable_portrait": 148,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 90.1,
+        "photo_payload_bytes": 70646050,
+        "licences": {
+          "cc0": 29,
+          "cc-by": 227,
+          "cc-by-sa": 17,
+          "cc-by-nc": 1048,
+          "cc-by-nc-sa": 24
+        },
+        "providers": {
+          "inaturalist": 1344,
+          "wikimedia": 1
+        },
+        "country_code": "IN",
+        "id": "india_1y",
+        "name": "India",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait2",
+        "final_pack_bytes": 202755576,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "italy_1y",
