@@ -1767,7 +1767,7 @@
       "name": "Portugal",
       "country_code": "PT",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait6",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 375489,
@@ -1812,10 +1812,10 @@
       "geospatial_snap_for_display_count": 23241,
       "geospatial_hidden_count": 1030,
       "geospatial_marine_kept_count": 1576,
-      "size_bytes": 37171944,
-      "uncompressed_size_bytes": 128782336,
-      "sha256": "017c700695da4d3c69e19669ebf18b9cafc827c2185679591acfc36e92e9c44f",
-      "sqlite_sha256": "43fbce4ff4dc6ec7b18d602c25d20f429a3203304518e154227233bdac74d16a",
+      "size_bytes": 64419419,
+      "uncompressed_size_bytes": 157110272,
+      "sha256": "7f491373038a8bbfcd7053b58b4dfa25110af8c2eb2ebf22aba78e1ba1c626fc",
+      "sqlite_sha256": "879206a84eed3e1d5e9f5edd1e301a23e45e1b2f2c39657d5b55b22727abd1d8",
       "file_name": "portugal_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -1886,18 +1886,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 573,
-        "photos": 557,
-        "added": 557,
-        "misses": 14,
-        "api_lookups": 70,
-        "photo_bytes_added": 3669302
+        "photos": 563,
+        "misses": 10,
+        "photo_bytes_added": 30246274,
+        "max_photo_bytes": 96000,
+        "api_lookups": 14,
+        "preparation": {
+          "cached": 561,
+          "selected": 2,
+          "no-photo": 10,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 557,
-      "species_photo_bytes": 3669302,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/portugal_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 563,
+      "species_photo_bytes": 30246274,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/portugal_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 487,
+        "mammal_species": 86,
+        "total_species": 573,
+        "portrait_v2_count": 563,
+        "curated_count": 24,
+        "automatic_count": 539,
+        "no_acceptable_portrait": 10,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 98.3,
+        "photo_payload_bytes": 30246274,
+        "licences": {
+          "cc0": 15,
+          "cc-by": 115,
+          "cc-by-sa": 12,
+          "cc-by-nc": 415,
+          "cc-by-nc-sa": 6
+        },
+        "providers": {
+          "inaturalist": 552,
+          "wikimedia": 11
+        },
+        "country_code": "PT",
+        "id": "portugal_1y",
+        "name": "Portugal",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait6",
+        "final_pack_bytes": 64419419,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "spain_1y",
