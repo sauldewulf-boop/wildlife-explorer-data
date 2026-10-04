@@ -2339,7 +2339,7 @@
       "name": "Viet Nam",
       "country_code": "VN",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait6",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 58441,
@@ -2390,10 +2390,10 @@
       "geospatial_snap_for_display_count": 4515,
       "geospatial_hidden_count": 268,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 12824547,
-      "uncompressed_size_bytes": 29450240,
-      "sha256": "10337246f36f5ae17443a367999b1540c2918ced6673ad1fb904b2a59f22fbcd",
-      "sqlite_sha256": "648f600250effa82a15f7edbfa78bc120a5dcca1a94a5cc4b002d62eff7422c4",
+      "size_bytes": 49952214,
+      "uncompressed_size_bytes": 68087808,
+      "sha256": "9d171e90edf6fb699978c0581e2e4ab41edf5967d7ae728c8916fc5121475936",
+      "sqlite_sha256": "2755025e843cc2a26182d34b0fb5db3bffe3d408a5cb4e1b47a10fed0e753ffd",
       "file_name": "viet_nam_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -2439,18 +2439,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 903,
-        "photos": 894,
-        "added": 894,
-        "misses": 9,
-        "api_lookups": 101,
-        "photo_bytes_added": 6850322
+        "photos": 828,
+        "misses": 75,
+        "photo_bytes_added": 43034668,
+        "max_photo_bytes": 96000,
+        "api_lookups": 8,
+        "preparation": {
+          "cached": 828,
+          "selected": 0,
+          "no-photo": 75,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 894,
-      "species_photo_bytes": 6850322,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/viet_nam_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 828,
+      "species_photo_bytes": 43034668,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/viet_nam_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 791,
+        "mammal_species": 112,
+        "total_species": 903,
+        "portrait_v2_count": 828,
+        "curated_count": 43,
+        "automatic_count": 785,
+        "no_acceptable_portrait": 75,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 91.7,
+        "photo_payload_bytes": 43034668,
+        "licences": {
+          "cc0": 12,
+          "cc-by": 130,
+          "cc-by-sa": 19,
+          "cc-by-nc": 652,
+          "cc-by-nc-sa": 15
+        },
+        "providers": {
+          "inaturalist": 805,
+          "wikimedia": 23
+        },
+        "country_code": "VN",
+        "id": "viet_nam_1y",
+        "name": "Viet Nam",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait6",
+        "final_pack_bytes": 49952214,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     }
   ]
 }
