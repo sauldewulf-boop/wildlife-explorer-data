@@ -1178,7 +1178,7 @@
       "name": "Jordan",
       "country_code": "JO",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait3",
       "period_start": "2024-01-01",
       "period_end": "2026-09-05",
       "observation_count": 8978,
@@ -1223,10 +1223,10 @@
       "geospatial_snap_for_display_count": 36,
       "geospatial_hidden_count": 1,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 2617395,
-      "uncompressed_size_bytes": 5595136,
-      "sha256": "0ae8ba809fa1491c4610740a5efcf41101d6322b9485e3008ddd82783c40a782",
-      "sqlite_sha256": "5ddbe42c38d1f51aa318aa925d96bfe5fe59c02614bf31f3039a609252b62040",
+      "size_bytes": 17361159,
+      "uncompressed_size_bytes": 20721664,
+      "sha256": "6cc9360517526a8ea5672282aba5f76d7bf55cc86ca2a0949054612bfda5273e",
+      "sqlite_sha256": "2f04eb95403730ee05caa8f72c6d29c11dd5c672411f2b0e08f27985078029e8",
       "file_name": "jordan_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -1291,18 +1291,51 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 321,
-        "photos": 317,
-        "added": 317,
-        "misses": 4,
-        "api_lookups": 40,
-        "photo_bytes_added": 1888442
+        "photos": 318,
+        "misses": 3,
+        "photo_bytes_added": 16330272,
+        "max_photo_bytes": 96000,
+        "api_lookups": 16,
+        "preparation": {
+          "cached": 316,
+          "selected": 2,
+          "no-photo": 3,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 317,
-      "species_photo_bytes": 1888442,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/jordan_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 318,
+      "species_photo_bytes": 16330272,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait3/jordan_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 302,
+        "mammal_species": 19,
+        "total_species": 321,
+        "portrait_v2_count": 318,
+        "curated_count": 6,
+        "automatic_count": 312,
+        "no_acceptable_portrait": 3,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 99.1,
+        "photo_payload_bytes": 16330272,
+        "licences": {
+          "cc0": 7,
+          "cc-by": 67,
+          "cc-by-sa": 5,
+          "cc-by-nc": 233,
+          "cc-by-nc-sa": 6
+        },
+        "providers": {
+          "inaturalist": 314,
+          "wikimedia": 4
+        }
+      }
     },
     {
       "id": "nl_1y",
