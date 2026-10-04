@@ -2047,7 +2047,7 @@
       "name": "Thailand",
       "country_code": "TH",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait6",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 316701,
@@ -2096,10 +2096,10 @@
       "geospatial_snap_for_display_count": 12187,
       "geospatial_hidden_count": 1715,
       "geospatial_marine_kept_count": 594,
-      "size_bytes": 37265739,
-      "uncompressed_size_bytes": 122249216,
-      "sha256": "217f83600dfffecf1e963bba250302749ce705f5996af16fd7a3deeee05457e7",
-      "sqlite_sha256": "10afc78db3a2ab61012bdb4c6962f840fb80acf03efcf4840f7e37c2c14e7e0c",
+      "size_bytes": 85230119,
+      "uncompressed_size_bytes": 172195840,
+      "sha256": "30238e96315c9003a38221efca8614d79bf3ccfbaa35ce72864353e72d8b68a9",
+      "sqlite_sha256": "84c203c63dd66e11e7eb1078f7bb5f315f1bf9723dcb7b0ab44d45dd1b50185c",
       "file_name": "thailand_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -2133,18 +2133,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 1152,
-        "photos": 1135,
-        "added": 1135,
-        "misses": 16,
-        "api_lookups": 416,
-        "photo_bytes_added": 8760664
+        "photos": 1063,
+        "misses": 89,
+        "photo_bytes_added": 55512402,
+        "max_photo_bytes": 96000,
+        "api_lookups": 24,
+        "preparation": {
+          "cached": 1063,
+          "selected": 0,
+          "no-photo": 89,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 1135,
-      "species_photo_bytes": 8760664,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/thailand_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 1063,
+      "species_photo_bytes": 55512402,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/thailand_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 993,
+        "mammal_species": 159,
+        "total_species": 1152,
+        "portrait_v2_count": 1063,
+        "curated_count": 36,
+        "automatic_count": 1027,
+        "no_acceptable_portrait": 89,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 92.3,
+        "photo_payload_bytes": 55512402,
+        "licences": {
+          "cc0": 19,
+          "cc-by": 164,
+          "cc-by-sa": 18,
+          "cc-by-nc": 849,
+          "cc-by-nc-sa": 13
+        },
+        "providers": {
+          "inaturalist": 1042,
+          "wikimedia": 21
+        },
+        "country_code": "TH",
+        "id": "thailand_1y",
+        "name": "Thailand",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait6",
+        "final_pack_bytes": 85230119,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "t_rkiye_1y",
