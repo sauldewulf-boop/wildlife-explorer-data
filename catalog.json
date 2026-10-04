@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.portrait6",
+  "catalog_version": "2026.10.04.portrait8",
   "updated": "2026-10-04",
   "packs": [
     {
@@ -737,7 +737,7 @@
       "name": "Germany",
       "country_code": "DE",
       "schema_version": 1,
-      "version": "2026.10.04.portrait6",
+      "version": "2026.10.04.portrait8",
       "period_start": "2025-10-03",
       "period_end": "2026-10-03",
       "observation_count": 453849,
@@ -751,12 +751,12 @@
       "west": 5.008497,
       "north": 55.299872,
       "east": 15.031638,
-      "size_bytes": 71701277,
+      "size_bytes": 71700920,
       "uncompressed_size_bytes": 183341056,
       "archive": "zip",
-      "sha256": "76a6b6bf51e772fa7fa519d14e9fb3d18a858691f28bf04e4c20c8c13642cd1a",
-      "sqlite_sha256": "f56a6a30ee270d00510432678c6fb38df8c4797fd26abc2caaa527ca3ab339ff",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/germany_1y.sqlite3.zip",
+      "sha256": "7aa20ce75a2c02eac6ffc58ea9e00d64733a0f5e3518caf994f6eeb5b992df13",
+      "sqlite_sha256": "447e5fbec1a01e0684df2798ed4a8af126dec10a63bcef4d99cd29a092cbea49",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait8/germany_1y.sqlite3.zip",
       "file_name": "germany_1y.sqlite3.zip",
       "unassigned_region_count": 172603,
       "regions_enabled": false,
@@ -827,9 +827,9 @@
         "country_code": "DE",
         "id": "germany_1y",
         "name": "Germany",
-        "old_version": "2026.10.04.portrait4",
-        "new_version": "2026.10.04.portrait6",
-        "final_pack_bytes": 71701277,
+        "old_version": "2026.10.04.portrait6",
+        "new_version": "2026.10.04.portrait8",
+        "final_pack_bytes": 71700920,
         "non_photo_data_unchanged": true,
         "unexpectedly_low_coverage": false
       }
