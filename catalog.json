@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.portrait8",
+  "catalog_version": "2026.10.04.portrait6",
   "updated": "2026-10-04",
   "packs": [
     {
@@ -2151,7 +2151,7 @@
       "name": "Türkiye",
       "country_code": "TR",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait6",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 190687,
@@ -2196,10 +2196,10 @@
       "geospatial_snap_for_display_count": 11704,
       "geospatial_hidden_count": 496,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 20007872,
-      "uncompressed_size_bytes": 71524352,
-      "sha256": "c584be22a0dfc303e4b65c81521e576b0bf5cd728cc9560c3f6a877841958b91",
-      "sqlite_sha256": "30ef20fe4e7e5efdef51d85e044a5b7f6047345f1b8cc17bc0a8a61d930d66ed",
+      "size_bytes": 45521076,
+      "uncompressed_size_bytes": 98017280,
+      "sha256": "c3cc23d79674fc3a0eed27367a192cdbc88db45e0aac9ad8f496ad14e54352a5",
+      "sqlite_sha256": "1d5628692bceca3d624f1b029e96b7440df1691a44ab9adf18110adf77c0c236",
       "file_name": "t_rkiye_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -2239,18 +2239,59 @@
         "source_occurrences": 1
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 524,
-        "photos": 513,
-        "added": 513,
-        "misses": 11,
-        "api_lookups": 14,
-        "photo_bytes_added": 3229070
+        "photos": 517,
+        "misses": 7,
+        "photo_bytes_added": 28117436,
+        "max_photo_bytes": 96000,
+        "api_lookups": 83,
+        "preparation": {
+          "cached": 508,
+          "selected": 9,
+          "no-photo": 7,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 513,
-      "species_photo_bytes": 3229070,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/t_rkiye_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 517,
+      "species_photo_bytes": 28117436,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/t_rkiye_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 449,
+        "mammal_species": 75,
+        "total_species": 524,
+        "portrait_v2_count": 517,
+        "curated_count": 26,
+        "automatic_count": 491,
+        "no_acceptable_portrait": 7,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 98.7,
+        "photo_payload_bytes": 28117436,
+        "licences": {
+          "cc0": 15,
+          "cc-by": 102,
+          "cc-by-sa": 12,
+          "cc-by-nc": 381,
+          "cc-by-nc-sa": 7
+        },
+        "providers": {
+          "inaturalist": 503,
+          "wikimedia": 14
+        },
+        "country_code": "TR",
+        "id": "t_rkiye_1y",
+        "name": "Türkiye",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait6",
+        "final_pack_bytes": 45521076,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "viet_nam_1y",
