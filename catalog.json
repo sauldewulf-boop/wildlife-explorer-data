@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.portrait5",
+  "catalog_version": "2026.10.04.portrait4",
   "updated": "2026-10-04",
   "packs": [
     {
@@ -1559,7 +1559,7 @@
       "id": "new_zealand_1y",
       "name": "New Zealand",
       "country_code": "NZ",
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait4",
       "period_start": "2024-01-01",
       "period_end": "2026-09-08",
       "observation_count": 292908,
@@ -1604,10 +1604,10 @@
       "geospatial_snap_for_display_count": 48373,
       "geospatial_hidden_count": 3055,
       "geospatial_marine_kept_count": 13511,
-      "size_bytes": 29057813,
-      "uncompressed_size_bytes": 105488384,
-      "sha256": "40997b592bd1648cd0a3cd4fed7bc401ba07556fccac369da1c5a1df8b309be3",
-      "sqlite_sha256": "9d4ec8d2fd5716ac0e1e80a621c54af6478aeb9fa656f06dc242dac295d1b6d2",
+      "size_bytes": 44655078,
+      "uncompressed_size_bytes": 121499648,
+      "sha256": "61adeb915e921cc730792dc8efeb94ef61bb19cdce0d97a7fa65273156467d39",
+      "sqlite_sha256": "c375c88794fba0eb645ac07159201c5832ab1c89db66841bb1af4fc0e333b0ac",
       "file_name": "new_zealand_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -1708,18 +1708,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 352,
-        "photos": 346,
-        "added": 346,
-        "misses": 3,
-        "api_lookups": 210,
-        "photo_bytes_added": 2638294
+        "photos": 330,
+        "misses": 22,
+        "photo_bytes_added": 17921924,
+        "max_photo_bytes": 96000,
+        "api_lookups": 597,
+        "preparation": {
+          "cached": 171,
+          "selected": 159,
+          "no-photo": 22,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 346,
-      "species_photo_bytes": 2638294,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/new_zealand_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 330,
+      "species_photo_bytes": 17921924,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait4/new_zealand_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 295,
+        "mammal_species": 57,
+        "total_species": 352,
+        "portrait_v2_count": 330,
+        "curated_count": 15,
+        "automatic_count": 315,
+        "no_acceptable_portrait": 22,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 93.8,
+        "photo_payload_bytes": 17921924,
+        "licences": {
+          "cc0": 22,
+          "cc-by": 67,
+          "cc-by-sa": 27,
+          "cc-by-nc": 209,
+          "cc-by-nc-sa": 5
+        },
+        "providers": {
+          "inaturalist": 326,
+          "wikimedia": 4
+        },
+        "country_code": "NZ",
+        "id": "new_zealand_1y",
+        "name": "New Zealand",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait4",
+        "final_pack_bytes": 44655078,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "portugal_1y",
