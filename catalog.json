@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.portrait7",
+  "catalog_version": "2026.10.04.portrait6",
   "updated": "2026-10-04",
   "packs": [
     {
@@ -1945,7 +1945,7 @@
       "name": "Spain",
       "country_code": "ES",
       "schema_version": 1,
-      "version": "2026.10.03",
+      "version": "2026.10.04.portrait6",
       "period_start": "2025-10-03",
       "period_end": "2026-10-03",
       "observation_count": 355812,
@@ -1959,12 +1959,12 @@
       "west": -18.176739,
       "north": 45.333357,
       "east": 4.66247,
-      "size_bytes": 31496029,
-      "uncompressed_size_bytes": 122101760,
+      "size_bytes": 66301151,
+      "uncompressed_size_bytes": 158261248,
       "archive": "zip",
-      "sha256": "f61aefe819f54efabfbcd304f56d0080ef7b5328e3686764671b57f42716cd37",
-      "sqlite_sha256": "e549b00d472ed4f8d7c1d246faa9434c70fc7e973193c5f1c73bbf7df125dc3c",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10/spain_1y.sqlite3.zip",
+      "sha256": "1eff39290493c383a309169053f897ef9c0929aa10fc4aedbb922fdf3e44d048",
+      "sqlite_sha256": "36d875fdcfb42bf95178fa5b4c58c8699ee2eb69a0aa6f4ee14c11c7679ee696",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait6/spain_1y.sqlite3.zip",
       "file_name": "spain_1y.sqlite3.zip",
       "unassigned_region_count": 355812,
       "regions_enabled": false,
@@ -1987,7 +1987,60 @@
       "inaturalist_high_uncertainty_hidden": true,
       "inaturalist_uncertainty_threshold_m": 30000.0,
       "inaturalist_high_uncertainty_newly_hidden": 620,
-      "inaturalist_high_uncertainty_already_hidden": 0
+      "inaturalist_high_uncertainty_already_hidden": 0,
+      "portrait_policy": "portrait-v2",
+      "species_photo_summary": {
+        "policy": "portrait-v2",
+        "species": 611,
+        "photos": 602,
+        "misses": 9,
+        "photo_bytes_added": 33797362,
+        "max_photo_bytes": 96000,
+        "api_lookups": 8,
+        "preparation": {
+          "cached": 602,
+          "selected": 0,
+          "no-photo": 9,
+          "deferred": 0,
+          "not_attempted": 0
+        }
+      },
+      "species_photo_policy": "portrait-v2",
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_count": 602,
+      "species_photo_bytes": 33797362,
+      "portrait_coverage": {
+        "bird_species": 495,
+        "mammal_species": 116,
+        "total_species": 611,
+        "portrait_v2_count": 602,
+        "curated_count": 25,
+        "automatic_count": 577,
+        "no_acceptable_portrait": 9,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 98.5,
+        "photo_payload_bytes": 33797362,
+        "licences": {
+          "cc0": 18,
+          "cc-by": 120,
+          "cc-by-sa": 12,
+          "cc-by-nc": 448,
+          "cc-by-nc-sa": 4
+        },
+        "providers": {
+          "inaturalist": 591,
+          "wikimedia": 11
+        },
+        "country_code": "ES",
+        "id": "spain_1y",
+        "name": "Spain",
+        "old_version": "2026.10.03",
+        "new_version": "2026.10.04.portrait6",
+        "final_pack_bytes": 66301151,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "thailand_1y",
