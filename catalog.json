@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.portrait3",
+  "catalog_version": "2026.10.04.portrait4",
   "updated": "2026-10-04",
   "packs": [
     {
@@ -7,7 +7,7 @@
       "name": "Armenia",
       "country_code": "AM",
       "schema_version": 1,
-      "version": "2026.10.04.portrait3",
+      "version": "2026.10.04.portrait4",
       "period_start": "2021-10-04",
       "period_end": "2026-10-04",
       "observation_count": 9837,
@@ -21,12 +21,12 @@
       "west": 43.554187,
       "north": 41.231408,
       "east": 46.522504,
-      "size_bytes": 17994824,
-      "uncompressed_size_bytes": 21110784,
+      "size_bytes": 18094917,
+      "uncompressed_size_bytes": 21217280,
       "archive": "zip",
-      "sha256": "ba2d2a9df63d807fdcfdd70807c8d149155b54892a934a39984dd773abd7e576",
-      "sqlite_sha256": "3f19a23a65543d03fa0387bc1bc1e49229395d1b9d50f8b759a237fec483c23c",
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait3/am_1y.sqlite3.zip",
+      "sha256": "181b325ea15ad29ee695b8363f35ed1fc83a9a2e7660bc32413ef3591d181a3a",
+      "sqlite_sha256": "a35cb17785a1421ae70910ea44b295b64964d29504035be39caf4f80b0f1c422",
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait4/am_1y.sqlite3.zip",
       "file_name": "am_1y.sqlite3.zip",
       "unassigned_region_count": 11,
       "regions_enabled": false,
@@ -57,46 +57,54 @@
       "species_photo_summary": {
         "policy": "portrait-v2",
         "species": 308,
-        "photos": 306,
-        "misses": 2,
-        "photo_bytes_added": 16708518,
+        "photos": 307,
+        "misses": 1,
+        "photo_bytes_added": 16809992,
         "max_photo_bytes": 96000,
         "api_lookups": 0,
         "preparation": {
-          "cached": 306,
+          "cached": 307,
           "selected": 0,
-          "no-photo": 2,
+          "no-photo": 1,
           "deferred": 0,
           "not_attempted": 0
         }
       },
       "species_photo_policy": "portrait-v2",
       "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
-      "species_photo_count": 306,
-      "species_photo_bytes": 16708518,
+      "species_photo_count": 307,
+      "species_photo_bytes": 16809992,
       "portrait_coverage": {
         "bird_species": 262,
         "mammal_species": 46,
         "total_species": 308,
-        "portrait_v2_count": 306,
-        "curated_count": 17,
+        "portrait_v2_count": 307,
+        "curated_count": 18,
         "automatic_count": 289,
-        "no_acceptable_portrait": 2,
+        "no_acceptable_portrait": 1,
         "retryable_unresolved": 0,
         "unresolved_species": [],
-        "coverage_percent": 99.4,
-        "photo_payload_bytes": 16708518,
+        "coverage_percent": 99.7,
+        "photo_payload_bytes": 16809992,
         "licences": {
           "cc0": 6,
-          "cc-by": 74,
+          "cc-by": 75,
           "cc-by-sa": 7,
           "cc-by-nc": 213,
           "cc-by-nc-sa": 6
         },
         "providers": {
           "inaturalist": 297,
-          "wikimedia": 9
-        }
+          "wikimedia": 10
+        },
+        "country_code": "AM",
+        "id": "am_1y",
+        "name": "Armenia",
+        "old_version": "2026.10.04.portrait3",
+        "new_version": "2026.10.04.portrait4",
+        "final_pack_bytes": 18094917,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
       }
     },
     {
