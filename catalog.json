@@ -786,7 +786,7 @@
       "name": "Greece",
       "country_code": "GR",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 144164,
@@ -831,10 +831,10 @@
       "geospatial_snap_for_display_count": 19604,
       "geospatial_hidden_count": 369,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 16048366,
-      "uncompressed_size_bytes": 54382592,
-      "sha256": "e13c09cc7372a7715b11778f36164332a7620fd7236ec274f374bf768906edb5",
-      "sqlite_sha256": "517de4829c49873b3822cf011aa292fe356fad6ec8f8d9c877a5eacf6559fcb4",
+      "size_bytes": 37531804,
+      "uncompressed_size_bytes": 76386304,
+      "sha256": "92e827b014014e9dc0960ed8eea4a5d4e0675495f21cbf7df66e847c5ab64190",
+      "sqlite_sha256": "601daba590ada2529eb8f8f26337b0a44267380db5b9ca27a9aa179c0769c437",
       "file_name": "greece_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -878,18 +878,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 462,
-        "photos": 454,
-        "added": 454,
-        "misses": 8,
-        "api_lookups": 15,
-        "photo_bytes_added": 2842478
+        "photos": 447,
+        "misses": 15,
+        "photo_bytes_added": 23903992,
+        "max_photo_bytes": 96000,
+        "api_lookups": 54,
+        "preparation": {
+          "cached": 431,
+          "selected": 16,
+          "no-photo": 15,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 454,
-      "species_photo_bytes": 2842478,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/greece_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 447,
+      "species_photo_bytes": 23903992,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait2/greece_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 401,
+        "mammal_species": 61,
+        "total_species": 462,
+        "portrait_v2_count": 447,
+        "curated_count": 3,
+        "automatic_count": 444,
+        "no_acceptable_portrait": 15,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 96.8,
+        "photo_payload_bytes": 23903992,
+        "licences": {
+          "cc0": 10,
+          "cc-by": 88,
+          "cc-by-sa": 6,
+          "cc-by-nc": 335,
+          "cc-by-nc-sa": 8
+        },
+        "providers": {
+          "inaturalist": 446,
+          "wikimedia": 1
+        },
+        "country_code": "GR",
+        "id": "greece_1y",
+        "name": "Greece",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait2",
+        "final_pack_bytes": 37531804,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "india_1y",
