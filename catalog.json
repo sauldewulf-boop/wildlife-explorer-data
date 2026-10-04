@@ -516,7 +516,7 @@
       "name": "Georgia",
       "country_code": "GE",
       "schema_version": 1,
-      "version": "2026.09.28.photos2",
+      "version": "2026.10.04.portrait2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-07",
       "observation_count": 38326,
@@ -561,10 +561,10 @@
       "geospatial_snap_for_display_count": 1968,
       "geospatial_hidden_count": 24,
       "geospatial_marine_kept_count": 0,
-      "size_bytes": 5949912,
-      "uncompressed_size_bytes": 16449536,
-      "sha256": "f182de79fbead6351ecd4b1cfe6ab7dbbb75a133a539b7bfe33aab4f811a1840",
-      "sqlite_sha256": "41781f2e74093e642315ddb860a3ef15af26936f2aabeb96b1aac13ff059731f",
+      "size_bytes": 24910007,
+      "uncompressed_size_bytes": 35905536,
+      "sha256": "aaf16baf2f335414f99986678d9a344ff93af4b0ba7f30d3e71cd736a2fec151",
+      "sqlite_sha256": "b892d431eaabbd14ba248b1acf60f5e0a901fd4cc30367a4cfcd7a8ca558f233",
       "file_name": "ge_1y.sqlite3.zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
@@ -625,18 +625,59 @@
         "source_occurrences": 0
       },
       "species_photo_summary": {
+        "policy": "portrait-v2",
         "species": 412,
-        "photos": 403,
-        "added": 403,
-        "misses": 9,
-        "api_lookups": 19,
-        "photo_bytes_added": 2480254
+        "photos": 395,
+        "misses": 17,
+        "photo_bytes_added": 21067476,
+        "max_photo_bytes": 96000,
+        "api_lookups": 63,
+        "preparation": {
+          "cached": 378,
+          "selected": 17,
+          "no-photo": 17,
+          "deferred": 0,
+          "not_attempted": 0
+        }
       },
-      "species_photo_source": "https://www.inaturalist.org/",
-      "species_photo_policy": "One compact WebP per species; CC0/CC BY preferred, CC BY-NC fallback; per-photo credit and licence retained",
-      "species_photo_count": 403,
-      "species_photo_bytes": 2480254,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.09.28.photos2/ge_1y.sqlite3.zip"
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2",
+      "species_photo_count": 395,
+      "species_photo_bytes": 21067476,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.portrait2/ge_1y.sqlite3.zip",
+      "portrait_policy": "portrait-v2",
+      "portrait_coverage": {
+        "bird_species": 356,
+        "mammal_species": 56,
+        "total_species": 412,
+        "portrait_v2_count": 395,
+        "curated_count": 3,
+        "automatic_count": 392,
+        "no_acceptable_portrait": 17,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 95.9,
+        "photo_payload_bytes": 21067476,
+        "licences": {
+          "cc0": 7,
+          "cc-by": 77,
+          "cc-by-sa": 5,
+          "cc-by-nc": 299,
+          "cc-by-nc-sa": 7
+        },
+        "providers": {
+          "inaturalist": 394,
+          "wikimedia": 1
+        },
+        "country_code": "GE",
+        "id": "ge_1y",
+        "name": "Georgia",
+        "old_version": "2026.09.28.photos2",
+        "new_version": "2026.10.04.portrait2",
+        "final_pack_bytes": 24910007,
+        "non_photo_data_unchanged": true,
+        "unexpectedly_low_coverage": false
+      }
     },
     {
       "id": "germany_1y",
