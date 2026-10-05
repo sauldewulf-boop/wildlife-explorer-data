@@ -2787,7 +2787,7 @@
       "id": "nepal_1y",
       "name": "Nepal",
       "country_code": "NP",
-      "version": "2026.10.04.country1",
+      "version": "2026.10.05.country2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-21",
       "observation_count": 92947,
@@ -2855,7 +2855,7 @@
         }
       ],
       "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
-      "display_quality_version": "habitat-cell-v5",
+      "display_quality_version": "habitat-cell-v7-exclusive-native-range-conflicts",
       "display_quality_counts": {
         "habitat_approximation": 2186,
         "freshwater": 867,
@@ -2885,6 +2885,8 @@
         "title": "Global Register of Introduced and Invasive Species - Nepal",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-10-05",
+        "native_range_conflicts_not_hidden": [],
+        "native_conflict_policy": "Exact IOC unambiguous country-exclusive breeding-range evidence prevents national hiding of internally translocated species; broad presence lists and subnational ranges are not inferred.",
         "hidden_rows": 348
       },
       "hybrid_review": {
@@ -2939,15 +2941,15 @@
       "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
       "species_photo_count": 829,
       "species_photo_bytes": 40394592,
-      "size_bytes": 54139407,
-      "uncompressed_size_bytes": 80719872,
-      "sha256": "7b491015c6bb079b3d2e6ec2e19ea5990ef86586f8175bbddccdb653d1f8f245",
-      "sqlite_sha256": "eeec335f2c8fc2e63b2056e3c2c022b32e0bc169f9abaa73fffd674df9e22ed9",
+      "size_bytes": 54196831,
+      "uncompressed_size_bytes": 80789504,
+      "sha256": "e7efc0d9a13b1c1857f87a81e949fb4558627fcd0bdf758a852872262c45456c",
+      "sqlite_sha256": "f2a27f1a02470a7a8020245d575b41b3195673a21b508ae7c6f270d2c888d9f2",
       "file_name": "nepal_1y.sqlite3.zip",
       "archive": "zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.country1/nepal_1y.sqlite3.zip"
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.05.country2/nepal_1y.sqlite3.zip"
     }
   ]
 }
