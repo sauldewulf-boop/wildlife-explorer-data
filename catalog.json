@@ -2776,6 +2776,172 @@
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.country1/australia_1y.sqlite3.zip"
+    },
+    {
+      "id": "nepal_1y",
+      "name": "Nepal",
+      "country_code": "NP",
+      "version": "2026.10.04.country1",
+      "period_start": "2024-01-01",
+      "period_end": "2026-09-21",
+      "observation_count": 92947,
+      "south": 26.372948,
+      "west": 80.023596,
+      "north": 30.371456,
+      "east": 88.182391,
+      "regions_enabled": false,
+      "source_build_policy": "exact-col-identities-v6-current-species-concepts",
+      "bird_observations": 92145,
+      "mammal_observations": 802,
+      "species_count": 831,
+      "source_counts": {
+        "ebird": 384653,
+        "inaturalist": 10082,
+        "observation": 2526
+      },
+      "source_ebird_occurrences": 384653,
+      "source_gbif_sql_download_key": "0010271-260928105237408",
+      "source_gbif_sql_doi": "10.15468/dl.d7n7g9",
+      "summary_resolution_degrees": 0.1,
+      "ebird_summary_approximate_locations": true,
+      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
+      "taxonomy_unmatched_species_count": 0,
+      "taxonomy_resolution": "Exact GBIF backbone species/synonyms, or exact current Catalogue of Life species ID/name/class with release-specific synonyms; no fuzzy matching",
+      "common_name_sources": {
+        "birds": "IOC 15.2",
+        "mammals": "MDD 2.5"
+      },
+      "common_name_review": {
+        "bird_curated": 763,
+        "bird_fallback": 8,
+        "mammal_curated": 60,
+        "mammal_fallback": 0,
+        "changed_species": 823,
+        "unchanged_species": 8,
+        "taxon_corrections": 3
+      },
+      "geospatial_display_cleaned": true,
+      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
+      "observation_sources": [
+        {
+          "provider": "ebird",
+          "dataset_key": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "title": "EOD – eBird Observation Dataset",
+          "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "represented_occurrences": 384653
+        },
+        {
+          "provider": "observation",
+          "dataset_key": "8a863029-f435-446a-821e-275f4f641165",
+          "title": "Observation.org, Nature data from around the World",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/8a863029-f435-446a-821e-275f4f641165",
+          "represented_occurrences": 2526
+        },
+        {
+          "provider": "inaturalist",
+          "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "title": "iNaturalist Research-grade Observations",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "represented_occurrences": 10082
+        }
+      ],
+      "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
+      "display_quality_version": "habitat-cell-v5",
+      "display_quality_counts": {
+        "habitat_approximation": 2186,
+        "freshwater": 867,
+        "hidden_unresolved": 19,
+        "marine": 91
+      },
+      "introduced_species_review": {
+        "parser_version": 3,
+        "country_code": "NP",
+        "names": [
+          "anas platyrhynchos",
+          "bos taurus",
+          "bubalus bubalis",
+          "capra hircus",
+          "dromaius novaehollandiae",
+          "gallus gallus",
+          "meleagris gallopavo",
+          "oryctolagus cuniculus",
+          "ovis aries",
+          "struthio camelus",
+          "sus scrofa",
+          "vicugna pacos"
+        ],
+        "ambiguous_not_hidden": [],
+        "dataset_key": "9cfd5f70-968c-4690-94ef-834f01b0cea8",
+        "source": "https://www.gbif.org/dataset/9cfd5f70-968c-4690-94ef-834f01b0cea8",
+        "title": "Global Register of Introduced and Invasive Species - Nepal",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "fetched": "2026-10-05",
+        "hidden_rows": 348
+      },
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
+      "landcover_license": "CC BY 4.0",
+      "species_photo_summary": {
+        "policy": "portrait-v2",
+        "species": 831,
+        "photos": 829,
+        "misses": 2,
+        "photo_bytes_added": 44360122,
+        "max_photo_bytes": 96000,
+        "api_lookups": 0,
+        "preparation": {
+          "cached": 829,
+          "selected": 0,
+          "no-photo": 2,
+          "deferred": 0,
+          "not_attempted": 0
+        }
+      },
+      "portrait_coverage": {
+        "bird_species": 771,
+        "mammal_species": 60,
+        "total_species": 831,
+        "portrait_v2_count": 829,
+        "curated_count": 51,
+        "automatic_count": 778,
+        "no_acceptable_portrait": 2,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 99.8,
+        "photo_payload_bytes": 44360122,
+        "licences": {
+          "cc0": 25,
+          "cc-by": 148,
+          "cc-by-sa": 26,
+          "cc-by-nc": 617,
+          "cc-by-nc-sa": 13
+        },
+        "providers": {
+          "inaturalist": 803,
+          "wikimedia": 26
+        }
+      },
+      "portrait_policy": "portrait-v2",
+      "portrait_review_rules_sha256": "2a266a037427e3b5cab56ec69d1ec32338ca374d020d71de8a443b0bbacdce97",
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
+      "species_photo_count": 829,
+      "species_photo_bytes": 40394592,
+      "size_bytes": 54139407,
+      "uncompressed_size_bytes": 80719872,
+      "sha256": "7b491015c6bb079b3d2e6ec2e19ea5990ef86586f8175bbddccdb653d1f8f245",
+      "sqlite_sha256": "eeec335f2c8fc2e63b2056e3c2c022b32e0bc169f9abaa73fffd674df9e22ed9",
+      "file_name": "nepal_1y.sqlite3.zip",
+      "archive": "zip",
+      "ebird_summary_overview": true,
+      "ebird_summary_species_table": true,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.country1/nepal_1y.sqlite3.zip"
     }
   ]
 }
