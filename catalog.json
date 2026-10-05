@@ -1,5 +1,5 @@
 {
-  "catalog_version": "2026.10.04.country1",
+  "catalog_version": "2026.10.05.country2",
   "updated": "2026-10-05",
   "packs": [
     {
@@ -2497,7 +2497,7 @@
       "id": "australia_1y",
       "name": "Australia",
       "country_code": "AU",
-      "version": "2026.10.04.country1",
+      "version": "2026.10.05.country2",
       "period_start": "2024-01-01",
       "period_end": "2026-09-22",
       "observation_count": 1407298,
@@ -2565,12 +2565,12 @@
         }
       ],
       "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
-      "display_quality_version": "habitat-cell-v5",
+      "display_quality_version": "habitat-cell-v7-exclusive-native-range-conflicts",
       "display_quality_counts": {
         "freshwater": 33097,
-        "habitat_approximation": 74787,
+        "habitat_approximation": 75661,
         "marine": 35746,
-        "hidden_unresolved": 2790
+        "hidden_unresolved": 2800
       },
       "introduced_species_review": {
         "parser_version": 3,
@@ -2653,7 +2653,6 @@
           "sus scrofa",
           "taeniopygia guttata",
           "trichoglossus chlorolepidotus",
-          "trichoglossus moluccanus",
           "turdus merula",
           "turdus philomelos",
           "tyto alba",
@@ -2713,7 +2712,14 @@
         "title": "Global Register of Introduced and Invasive Species - Australia",
         "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
         "fetched": "2026-10-04",
-        "hidden_rows": 75417
+        "native_range_conflicts_not_hidden": [
+          {
+            "scientific_name_norm": "trichoglossus moluccanus",
+            "native_reference": "IOC v15.2 unambiguous country-exclusive breeding range"
+          }
+        ],
+        "native_conflict_policy": "Exact IOC unambiguous country-exclusive breeding-range evidence prevents national hiding of internally translocated species; broad presence lists and subnational ranges are not inferred.",
+        "hidden_rows": 66311
       },
       "hybrid_review": {
         "taxa": 0,
@@ -2767,15 +2773,15 @@
       "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
       "species_photo_count": 961,
       "species_photo_bytes": 49247634,
-      "size_bytes": 190049694,
-      "uncompressed_size_bytes": 555642880,
-      "sha256": "2011e44bc0f26f3f2a74f6f0dbcc47f36baaa74b0f40b550959e4df353751b90",
-      "sqlite_sha256": "e0a3dc46576d2df4f66b7f8efa990ca67c071b3f8bc0d6c8453594036e07652c",
+      "size_bytes": 192346852,
+      "uncompressed_size_bytes": 559063040,
+      "sha256": "d89b520cc09503b81a50619a0061bbf96091ba126e48dee5c18baeda338d1cf4",
+      "sqlite_sha256": "db925842bca92886c2f2250edca1cec1af28c0ae3195b25b58ebbd2821d9036c",
       "file_name": "australia_1y.sqlite3.zip",
       "archive": "zip",
       "ebird_summary_overview": true,
       "ebird_summary_species_table": true,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.04.country1/australia_1y.sqlite3.zip"
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.05.country2/australia_1y.sqlite3.zip"
     },
     {
       "id": "nepal_1y",
