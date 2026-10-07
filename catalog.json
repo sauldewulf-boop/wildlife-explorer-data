@@ -1,15 +1,15 @@
 {
-  "catalog_version": "2026.10.06.bi-local1",
-  "updated": "2026-10-06",
+  "catalog_version": "2026.10.07",
+  "updated": "2026-10-07",
   "packs": [
     {
       "id": "am_1y",
       "name": "Armenia",
       "country_code": "AM",
       "schema_version": 1,
-      "version": "2026.10.06",
-      "period_start": "2021-10-06",
-      "period_end": "2026-10-06",
+      "version": "2026.10.07",
+      "period_start": "2021-10-07",
+      "period_end": "2026-10-07",
       "observation_count": 9837,
       "bird_observations": 9443,
       "mammal_observations": 394,
@@ -24,7 +24,7 @@
       "size_bytes": 950511,
       "uncompressed_size_bytes": 3440640,
       "archive": "zip",
-      "sha256": "eed658142421a3576992028379743d62280b5b0c463bad59198f04bc0a97eec7",
+      "sha256": "f44e9d0c57f5f6538cb6233ba47bffd484e114dddf34667b7b2394cb8dc30ee8",
       "sqlite_sha256": "4f8f5d89b2bcc7c998c57c88800be6fa8be841c28aa8c395b9d403cf427f2029",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10/am_1y.sqlite3.zip",
       "file_name": "am_1y.sqlite3.zip",
@@ -343,28 +343,28 @@
       "name": "Belgium",
       "country_code": "BE",
       "schema_version": 1,
-      "version": "2026.10.06",
-      "period_start": "2021-10-06",
-      "period_end": "2026-10-06",
-      "observation_count": 58143,
-      "bird_observations": 53440,
-      "mammal_observations": 4703,
+      "version": "2026.10.07",
+      "period_start": "2021-10-07",
+      "period_end": "2026-10-07",
+      "observation_count": 58134,
+      "bird_observations": 53432,
+      "mammal_observations": 4702,
       "species_count": 431,
       "region_count": 7,
-      "first_observation_date": "2021-10-06",
+      "first_observation_date": "2021-10-07",
       "last_observation_date": "2026-09-07",
       "south": 49.484798,
       "west": 2.411986,
       "north": 51.848617,
       "east": 6.381082,
-      "size_bytes": 5389310,
-      "uncompressed_size_bytes": 19820544,
+      "size_bytes": 5391051,
+      "uncompressed_size_bytes": 19824640,
       "archive": "zip",
-      "sha256": "b4499596d27046fe4202dcd6e40ee259f3de41c1de7ea664d3e4f5027352866e",
-      "sqlite_sha256": "7e409d1efae4cc2e558e97082052c874eda7116c8432e4e0e983476bb6631146",
+      "sha256": "940f475207b03a097a78e1ad7573fc525f44be74ceda43b4731329dcf4a8d75a",
+      "sqlite_sha256": "4c4ceb72a72d3612f12bcaa2a06080ea53b14523229bb8ac7e0162040a1c6771",
       "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10/be_1y.sqlite3.zip",
       "file_name": "be_1y.sqlite3.zip",
-      "unassigned_region_count": 41763,
+      "unassigned_region_count": 41754,
       "regions_enabled": false,
       "taxonomy_cleaned": true,
       "taxonomy_source": "GBIF Species Backbone",
@@ -379,7 +379,7 @@
       "curated_taxon_corrections": true,
       "geospatial_display_cleaned": true,
       "geospatial_display_method": "Natural Earth 10m land; <=500m non-offshore-capable records snapped for display only",
-      "geospatial_keep_original_count": 58091,
+      "geospatial_keep_original_count": 58082,
       "geospatial_snap_for_display_count": 32,
       "geospatial_review_or_remove_count": 20,
       "offshore_birds_hidden": true,
@@ -389,6 +389,165 @@
       "inaturalist_uncertainty_threshold_m": 30000.0,
       "inaturalist_high_uncertainty_newly_hidden": 79,
       "inaturalist_high_uncertainty_already_hidden": 0
+    },
+    {
+      "id": "burundi_1y",
+      "name": "Burundi",
+      "country_code": "BI",
+      "version": "2026.10.06.bi-local1",
+      "period_start": "2024-02-03",
+      "period_end": "2026-08-19",
+      "observation_count": 958,
+      "south": -3.871112,
+      "west": 29.207666,
+      "north": -2.410884,
+      "east": 30.096335,
+      "regions_enabled": false,
+      "source_build_policy": "exact-col-identities-v6-current-species-concepts",
+      "bird_observations": 946,
+      "mammal_observations": 12,
+      "species_count": 273,
+      "source_counts": {
+        "ebird": 1151,
+        "inaturalist": 329,
+        "observation": 24
+      },
+      "source_ebird_occurrences": 1151,
+      "source_gbif_sql_download_key": "0012581-260928105237408",
+      "source_gbif_sql_doi": "10.15468/dl.e6eq2k",
+      "summary_resolution_degrees": 0.05,
+      "ebird_summary_approximate_locations": true,
+      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
+      "taxonomy_unmatched_species_count": 0,
+      "taxonomy_resolution": "Exact GBIF backbone species/synonyms, or exact current Catalogue of Life species ID/name/class with release-specific synonyms; no fuzzy matching",
+      "common_name_sources": {
+        "birds": "IOC 15.2",
+        "mammals": "MDD 2.5"
+      },
+      "common_name_review": {
+        "bird_curated": 265,
+        "bird_fallback": 4,
+        "mammal_curated": 4,
+        "mammal_fallback": 0,
+        "changed_species": 269,
+        "unchanged_species": 4,
+        "taxon_corrections": 1
+      },
+      "geospatial_display_cleaned": true,
+      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
+      "observation_sources": [
+        {
+          "provider": "ebird",
+          "dataset_key": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "title": "EOD – eBird Observation Dataset",
+          "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "represented_occurrences": 1151
+        },
+        {
+          "provider": "observation",
+          "dataset_key": "8a863029-f435-446a-821e-275f4f641165",
+          "title": "Observation.org, Nature data from around the World",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/8a863029-f435-446a-821e-275f4f641165",
+          "represented_occurrences": 24
+        },
+        {
+          "provider": "inaturalist",
+          "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "title": "iNaturalist Research-grade Observations",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "represented_occurrences": 329
+        }
+      ],
+      "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
+      "display_quality_version": "habitat-cell-v7-exclusive-native-range-conflicts",
+      "display_quality_counts": {
+        "hidden_unresolved": 133,
+        "freshwater": 98,
+        "marine": 24,
+        "habitat_approximation": 2
+      },
+      "introduced_species_review": {
+        "parser_version": 3,
+        "country_code": "BI",
+        "names": [
+          "agapornis personatus",
+          "columba livia",
+          "passer domesticus"
+        ],
+        "ambiguous_not_hidden": [],
+        "dataset_key": "5149ebfa-3873-4b11-8acb-3940303c793f",
+        "source": "https://www.gbif.org/dataset/5149ebfa-3873-4b11-8acb-3940303c793f",
+        "title": "Global Register of Introduced and Invasive Species - Burundi",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "fetched": "2026-10-06",
+        "native_range_conflicts_not_hidden": [],
+        "native_conflict_policy": "Exact IOC unambiguous country-exclusive breeding-range evidence prevents national hiding of internally translocated species; broad presence lists and subnational ranges are not inferred.",
+        "hidden_rows": 15
+      },
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
+      "landcover_license": "CC BY 4.0",
+      "species_photo_summary": {
+        "policy": "portrait-v2",
+        "species": 272,
+        "photos": 252,
+        "misses": 20,
+        "photo_bytes_added": 13245874,
+        "max_photo_bytes": 96000,
+        "api_lookups": 209,
+        "preparation": {
+          "cached": 217,
+          "selected": 35,
+          "no-photo": 20,
+          "deferred": 0,
+          "not_attempted": 0
+        }
+      },
+      "portrait_coverage": {
+        "bird_species": 268,
+        "mammal_species": 4,
+        "total_species": 272,
+        "portrait_v2_count": 252,
+        "curated_count": 5,
+        "automatic_count": 247,
+        "no_acceptable_portrait": 20,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 92.6,
+        "photo_payload_bytes": 13245874,
+        "licences": {
+          "cc0": 13,
+          "cc-by": 37,
+          "cc-by-sa": 11,
+          "cc-by-nc": 187,
+          "cc-by-nc-sa": 4
+        },
+        "providers": {
+          "inaturalist": 248,
+          "wikimedia": 4
+        }
+      },
+      "portrait_policy": "portrait-v2",
+      "portrait_review_rules_sha256": "2a266a037427e3b5cab56ec69d1ec32338ca374d020d71de8a443b0bbacdce97",
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
+      "species_photo_count": 252,
+      "species_photo_bytes": 12081552,
+      "size_bytes": 13739450,
+      "uncompressed_size_bytes": 14974976,
+      "sha256": "a12372807931492cc58f8eba4d51d0e775a3b78dca1034e180036421a422fda3",
+      "sqlite_sha256": "a8022dbb4e4c368e133d7248c1cc249475ec1a1fe5e6d6a09a2f8c31be2f88fa",
+      "file_name": "burundi_1y.sqlite3.zip",
+      "archive": "zip",
+      "ebird_summary_overview": true,
+      "ebird_summary_species_table": true,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.06.bi-local1/burundi_1y.sqlite3.zip"
     },
     {
       "id": "fr_1y",
@@ -2301,165 +2460,6 @@
         "non_photo_data_unchanged": true,
         "unexpectedly_low_coverage": false
       }
-    },
-    {
-      "id": "burundi_1y",
-      "name": "Burundi",
-      "country_code": "BI",
-      "version": "2026.10.06.bi-local1",
-      "period_start": "2024-02-03",
-      "period_end": "2026-08-19",
-      "observation_count": 958,
-      "south": -3.871112,
-      "west": 29.207666,
-      "north": -2.410884,
-      "east": 30.096335,
-      "regions_enabled": false,
-      "source_build_policy": "exact-col-identities-v6-current-species-concepts",
-      "bird_observations": 946,
-      "mammal_observations": 12,
-      "species_count": 273,
-      "source_counts": {
-        "ebird": 1151,
-        "inaturalist": 329,
-        "observation": 24
-      },
-      "source_ebird_occurrences": 1151,
-      "source_gbif_sql_download_key": "0012581-260928105237408",
-      "source_gbif_sql_doi": "10.15468/dl.e6eq2k",
-      "summary_resolution_degrees": 0.05,
-      "ebird_summary_approximate_locations": true,
-      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
-      "taxonomy_unmatched_species_count": 0,
-      "taxonomy_resolution": "Exact GBIF backbone species/synonyms, or exact current Catalogue of Life species ID/name/class with release-specific synonyms; no fuzzy matching",
-      "common_name_sources": {
-        "birds": "IOC 15.2",
-        "mammals": "MDD 2.5"
-      },
-      "common_name_review": {
-        "bird_curated": 265,
-        "bird_fallback": 4,
-        "mammal_curated": 4,
-        "mammal_fallback": 0,
-        "changed_species": 269,
-        "unchanged_species": 4,
-        "taxon_corrections": 1
-      },
-      "geospatial_display_cleaned": true,
-      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
-      "observation_sources": [
-        {
-          "provider": "ebird",
-          "dataset_key": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
-          "title": "EOD – eBird Observation Dataset",
-          "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
-          "source_url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
-          "represented_occurrences": 1151
-        },
-        {
-          "provider": "observation",
-          "dataset_key": "8a863029-f435-446a-821e-275f4f641165",
-          "title": "Observation.org, Nature data from around the World",
-          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
-          "source_url": "https://www.gbif.org/dataset/8a863029-f435-446a-821e-275f4f641165",
-          "represented_occurrences": 24
-        },
-        {
-          "provider": "inaturalist",
-          "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
-          "title": "iNaturalist Research-grade Observations",
-          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
-          "source_url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
-          "represented_occurrences": 329
-        }
-      ],
-      "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
-      "display_quality_version": "habitat-cell-v7-exclusive-native-range-conflicts",
-      "display_quality_counts": {
-        "hidden_unresolved": 133,
-        "freshwater": 98,
-        "marine": 24,
-        "habitat_approximation": 2
-      },
-      "introduced_species_review": {
-        "parser_version": 3,
-        "country_code": "BI",
-        "names": [
-          "agapornis personatus",
-          "columba livia",
-          "passer domesticus"
-        ],
-        "ambiguous_not_hidden": [],
-        "dataset_key": "5149ebfa-3873-4b11-8acb-3940303c793f",
-        "source": "https://www.gbif.org/dataset/5149ebfa-3873-4b11-8acb-3940303c793f",
-        "title": "Global Register of Introduced and Invasive Species - Burundi",
-        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
-        "fetched": "2026-10-06",
-        "native_range_conflicts_not_hidden": [],
-        "native_conflict_policy": "Exact IOC unambiguous country-exclusive breeding-range evidence prevents national hiding of internally translocated species; broad presence lists and subnational ranges are not inferred.",
-        "hidden_rows": 15
-      },
-      "hybrid_review": {
-        "taxa": 0,
-        "source_occurrences": 0
-      },
-      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
-      "landcover_license": "CC BY 4.0",
-      "species_photo_summary": {
-        "policy": "portrait-v2",
-        "species": 272,
-        "photos": 252,
-        "misses": 20,
-        "photo_bytes_added": 13245874,
-        "max_photo_bytes": 96000,
-        "api_lookups": 209,
-        "preparation": {
-          "cached": 217,
-          "selected": 35,
-          "no-photo": 20,
-          "deferred": 0,
-          "not_attempted": 0
-        }
-      },
-      "portrait_coverage": {
-        "bird_species": 268,
-        "mammal_species": 4,
-        "total_species": 272,
-        "portrait_v2_count": 252,
-        "curated_count": 5,
-        "automatic_count": 247,
-        "no_acceptable_portrait": 20,
-        "retryable_unresolved": 0,
-        "unresolved_species": [],
-        "coverage_percent": 92.6,
-        "photo_payload_bytes": 13245874,
-        "licences": {
-          "cc0": 13,
-          "cc-by": 37,
-          "cc-by-sa": 11,
-          "cc-by-nc": 187,
-          "cc-by-nc-sa": 4
-        },
-        "providers": {
-          "inaturalist": 248,
-          "wikimedia": 4
-        }
-      },
-      "portrait_policy": "portrait-v2",
-      "portrait_review_rules_sha256": "2a266a037427e3b5cab56ec69d1ec32338ca374d020d71de8a443b0bbacdce97",
-      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
-      "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
-      "species_photo_count": 252,
-      "species_photo_bytes": 12081552,
-      "size_bytes": 13739450,
-      "uncompressed_size_bytes": 14974976,
-      "sha256": "a12372807931492cc58f8eba4d51d0e775a3b78dca1034e180036421a422fda3",
-      "sqlite_sha256": "a8022dbb4e4c368e133d7248c1cc249475ec1a1fe5e6d6a09a2f8c31be2f88fa",
-      "file_name": "burundi_1y.sqlite3.zip",
-      "archive": "zip",
-      "ebird_summary_overview": true,
-      "ebird_summary_species_table": true,
-      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.06.bi-local1/burundi_1y.sqlite3.zip"
     }
   ]
 }
