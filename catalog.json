@@ -1,6 +1,6 @@
 {
-  "catalog_version": "2026.10.08",
-  "updated": "2026-10-08",
+  "catalog_version": "2026.10.08.ar-preview3",
+  "updated": "2026-10-09",
   "packs": [
     {
       "id": "am_1y",
@@ -2460,6 +2460,490 @@
         "non_photo_data_unchanged": true,
         "unexpectedly_low_coverage": false
       }
+    },
+    {
+      "id": "argentina_1y",
+      "name": "Argentina",
+      "country_code": "AR",
+      "version": "2026.10.08.ar-preview3",
+      "period_start": "2024-01-01",
+      "period_end": "2026-09-29",
+      "observation_count": 559426,
+      "south": -59.957721,
+      "west": -73.384686,
+      "north": -21.813028,
+      "east": -53.64349,
+      "regions_enabled": false,
+      "source_build_policy": "exact-col-identities-v6-current-species-concepts+col-null-exact-backbone-v1+exact-gbif-and-published-archived-xr-v1+exact-marine-family-compatibility-v1+documented-introduced-scope-contained-cell-v1",
+      "bird_observations": 553046,
+      "mammal_observations": 6380,
+      "species_count": 1214,
+      "source_counts": {
+        "ebird": 2614879,
+        "inaturalist": 171360,
+        "observation": 3737
+      },
+      "source_ebird_occurrences": 2614879,
+      "source_gbif_sql_download_key": "0017177-260928105237408",
+      "source_gbif_sql_doi": "10.15468/dl.hr7c29",
+      "summary_resolution_degrees": 0.25,
+      "ebird_summary_approximate_locations": true,
+      "location_precision_note": "Approximate species/month/grid-cell display locations, not individual sighting coordinates. Habitat placement is an inference, not a verified sighting.",
+      "taxonomy_unmatched_species_count": 0,
+      "taxonomy_resolution": "Exact GBIF backbone species/synonyms, or exact current Catalogue of Life species ID/name/class with release-specific synonyms; no fuzzy matching",
+      "common_name_sources": {
+        "birds": "IOC 15.2",
+        "mammals": "MDD 2.5"
+      },
+      "common_name_review": {
+        "bird_curated": 1001,
+        "bird_fallback": 12,
+        "mammal_curated": 196,
+        "mammal_fallback": 5,
+        "changed_species": 1197,
+        "unchanged_species": 17,
+        "taxon_corrections": 0
+      },
+      "geospatial_display_cleaned": true,
+      "geospatial_display_method": "ESA WorldCover 2021 habitat-supported display within original summary cell; unresolved offshore points hidden; original source coordinates retained",
+      "source_taxonomy_fallback": {
+        "policy": "col-null-exact-backbone-v1",
+        "reference": "https://techdocs.gbif.org/en/data-use/api-sql-downloads#taxonomy-columns",
+        "species": 3,
+        "mappings": [
+          {
+            "source_key": "gbif-backbone:5220192",
+            "source_name": "Vicugna vicugna",
+            "species_id": "gbif:5220192",
+            "canonical_name": "Vicugna vicugna"
+          },
+          {
+            "source_key": "gbif-backbone:5230207",
+            "source_name": "Xenops rutilans",
+            "species_id": "gbif:5230207",
+            "canonical_name": "Xenops rutilans"
+          },
+          {
+            "source_key": "gbif-backbone:9761484",
+            "source_name": "Anas platyrhynchos",
+            "species_id": "gbif:9761484",
+            "canonical_name": "Anas platyrhynchos"
+          }
+        ],
+        "limitation": "CoL species interpretation absent; exact GBIF Backbone species parent retained after normal taxonomy QA. Not a biological adjudication."
+      },
+      "exact_english_fallback": [
+        {
+          "species_id": "gbif:11854394",
+          "scientific_name": "Ctenomys rosendopascuali",
+          "english_name": "Rosendo Pascual's Tuco-tuco",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2480287",
+          "scientific_name": "Charadrius falklandicus",
+          "english_name": "Two-banded Plover",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2480296",
+          "scientific_name": "Charadrius collaris",
+          "english_name": "Collared Plover",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2480324",
+          "scientific_name": "Charadrius alticola",
+          "english_name": "Puna Plover",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2481065",
+          "scientific_name": "Milvago chimango",
+          "english_name": "chimango",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2481066",
+          "scientific_name": "Milvago chimachima",
+          "english_name": "Yellow-headed Caracara",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2481091",
+          "scientific_name": "Phalcoboenus australis",
+          "english_name": "Striated Caracara",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2481092",
+          "scientific_name": "Phalcoboenus megalopterus",
+          "english_name": "Mountain Caracara",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2481093",
+          "scientific_name": "Phalcoboenus albogularis",
+          "english_name": "White-throated Caracara",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2482560",
+          "scientific_name": "Cyanocorax caeruleus",
+          "english_name": "Azure Jay",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:2490375",
+          "scientific_name": "Cyanocompsa brissonii",
+          "english_name": "Ultramarine Grosbeak",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:4263407",
+          "scientific_name": "Ctenomys yolandae",
+          "english_name": "Yolanda's Tuco-tuco",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:5232077",
+          "scientific_name": "Macropsalis forcipata",
+          "english_name": "Long-trained Nightjar",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:6101201",
+          "scientific_name": "Nystalus striatipectus",
+          "english_name": "Chaco Puffbird",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:8640253",
+          "scientific_name": "Pediolagus salinicola",
+          "english_name": "Chacoan Mara",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        },
+        {
+          "species_id": "gbif:8843902",
+          "scientific_name": "Myotis dinellii",
+          "english_name": "Dinelli's Myotis",
+          "source": "Exact GBIF English vernacular cache; IOC/MDD preferred when available"
+        }
+      ],
+      "exact_english_fallback_policy": "exact-cached-gbif-english-v1",
+      "taxonomy_reference_recovery": {
+        "policy": "exact-gbif-and-published-archived-xr-v1",
+        "species": 2,
+        "report": "taxonomy-reference-recovery.json"
+      },
+      "observation_sources": [
+        {
+          "provider": "ebird",
+          "dataset_key": "4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "title": "EOD – eBird Observation Dataset",
+          "license_url": "http://creativecommons.org/licenses/by/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e",
+          "represented_occurrences": 2614879
+        },
+        {
+          "provider": "observation",
+          "dataset_key": "8a863029-f435-446a-821e-275f4f641165",
+          "title": "Observation.org, Nature data from around the World",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/8a863029-f435-446a-821e-275f4f641165",
+          "represented_occurrences": 3737
+        },
+        {
+          "provider": "inaturalist",
+          "dataset_key": "50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "title": "iNaturalist Research-grade Observations",
+          "license_url": "http://creativecommons.org/licenses/by-nc/4.0/legalcode",
+          "source_url": "https://www.gbif.org/dataset/50c9509d-22c7-4a22-a47d-8c48425ef4a7",
+          "represented_occurrences": 171360
+        }
+      ],
+      "license_note": "Underlying observation datasets retain their individual BY/BY-NC terms; photos have separate image-level rights. SQL summaries do not grant a new blanket licence.",
+      "display_quality_version": "habitat-cell-v7-exclusive-native-range-conflicts+exact-marine-family-compatibility-v1+documented-introduced-scope-contained-cell-v1",
+      "display_quality_counts": {
+        "habitat_approximation": 28576,
+        "freshwater": 14974,
+        "marine": 8508,
+        "hidden_unresolved": 445
+      },
+      "introduced_species_review": {
+        "parser_version": 3,
+        "country_code": "AR",
+        "names": [
+          "acridotheres cristatellus",
+          "anas platyrhynchos",
+          "anser anser",
+          "antilope cervicapra",
+          "axis axis",
+          "bos taurus",
+          "bubalus bubalis",
+          "bubulcus ibis",
+          "callipepla californica",
+          "callosciurus erythraeus",
+          "canis familiaris",
+          "canis lupus",
+          "capra hircus",
+          "capra ibex",
+          "capra pyrenaica",
+          "carduelis carduelis",
+          "carduelis chloris",
+          "castor canadensis",
+          "cervus elaphus",
+          "chloris chloris",
+          "chrysolophus amherstiae",
+          "chrysolophus pictus",
+          "columba livia",
+          "cygnus atratus",
+          "dama dama",
+          "elaphurus davidianus",
+          "equus asinus",
+          "equus caballus",
+          "felis catus",
+          "hemitragus jemlahicus",
+          "lama glama",
+          "lepus europaeus",
+          "lophura leucomelanos",
+          "lophura nycthemera",
+          "mus musculus",
+          "neovison vison",
+          "ondatra zibethicus",
+          "oryctolagus cuniculus",
+          "ovis aries",
+          "passer domesticus",
+          "rangifer tarandus",
+          "rattus norvegicus",
+          "rattus rattus",
+          "rupicapra rupicapra",
+          "sturnus vulgaris",
+          "sus scrofa",
+          "vulpes vulpes"
+        ],
+        "ambiguous_not_hidden": [],
+        "dataset_key": "eedb7ade-5c51-4787-9635-949b704e1194",
+        "source": "https://www.gbif.org/dataset/eedb7ade-5c51-4787-9635-949b704e1194",
+        "title": "Global Register of Introduced and Invasive Species - Argentina",
+        "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+        "fetched": "2026-10-08",
+        "native_range_conflicts_not_hidden": [],
+        "native_conflict_policy": "Exact IOC unambiguous country-exclusive breeding-range evidence prevents national hiding of internally translocated species; broad presence lists and subnational ranges are not inferred.",
+        "hidden_rows": 13668,
+        "regional_scope_policy": "documented-introduced-scope-contained-cell-v1",
+        "regional_scope_reviews": [
+          {
+            "country_code": "AR",
+            "scientific_name_norm": "chaetophractus villosus",
+            "native_evidence": "https://sib.gob.ar/index.php/especies/chaetophractus-villosus",
+            "introduced_scope_evidence": "https://sedici.unlp.edu.ar/handle/10915/108885",
+            "scope": "Argentine portion of Isla Grande of Tierra del Fuego",
+            "admin1_name": "Tierra del Fuego",
+            "geometry_selector": "largest_polygon_component",
+            "expected_bounds": [
+              -69,
+              -56,
+              -64,
+              -52
+            ],
+            "limitation": "Generalized de facto boundary. Only fully contained source cells are excluded; intersecting cells remain uncertain. No broad country-presence nativity inference.",
+            "geometry_source_sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05",
+            "geometry_bounds": [
+              -68.64188192676619,
+              -55.05201588299991,
+              -65.1419164699999,
+              -52.639571698869695
+            ],
+            "hidden_rows": 0,
+            "retained_rows": 186,
+            "intersecting_cells_rows_retained": 0
+          }
+        ]
+      },
+      "hybrid_review": {
+        "taxa": 0,
+        "source_occurrences": 0
+      },
+      "landcover_source": "https://doi.org/10.5281/zenodo.7254221",
+      "landcover_license": "CC BY 4.0",
+      "species_photo_summary": {
+        "policy": "portrait-v2",
+        "species": 1214,
+        "photos": 1109,
+        "misses": 105,
+        "photo_bytes_added": 61337586,
+        "max_photo_bytes": 96000,
+        "identity_guard_policy": "automatic-cross-species-image-quarantine-v1",
+        "identity_quarantines": [
+          {
+            "species": "nystalus maculatus",
+            "image_sha256": "510524739fcec067489648eeb83e7991cfafd2d5b4cab7dcfc4d5ea413328698",
+            "shared_species": [
+              "nystalus maculatus",
+              "nystalus striatipectus"
+            ]
+          },
+          {
+            "species": "nystalus striatipectus",
+            "image_sha256": "510524739fcec067489648eeb83e7991cfafd2d5b4cab7dcfc4d5ea413328698",
+            "shared_species": [
+              "nystalus maculatus",
+              "nystalus striatipectus"
+            ]
+          },
+          {
+            "species": "thalasseus acuflavidus",
+            "image_sha256": "701498f2d933906a9d590ee8423abed20455b38d2e916da61789deb90fe1479a",
+            "shared_species": [
+              "thalasseus acuflavidus",
+              "thalasseus sandvicensis"
+            ]
+          },
+          {
+            "species": "thalasseus sandvicensis",
+            "image_sha256": "701498f2d933906a9d590ee8423abed20455b38d2e916da61789deb90fe1479a",
+            "shared_species": [
+              "thalasseus acuflavidus",
+              "thalasseus sandvicensis"
+            ]
+          }
+        ],
+        "api_lookups": 0,
+        "preparation": {
+          "cached": 1113,
+          "selected": 0,
+          "no-photo": 101,
+          "deferred": 0,
+          "not_attempted": 0
+        }
+      },
+      "portrait_coverage": {
+        "bird_species": 1013,
+        "mammal_species": 201,
+        "total_species": 1214,
+        "portrait_v2_count": 1109,
+        "curated_count": 12,
+        "automatic_count": 1097,
+        "no_acceptable_portrait": 105,
+        "retryable_unresolved": 0,
+        "unresolved_species": [],
+        "coverage_percent": 91.4,
+        "photo_payload_bytes": 61337586,
+        "licences": {
+          "cc0": 57,
+          "cc-by": 239,
+          "cc-by-sa": 36,
+          "cc-by-nc": 740,
+          "cc-by-nc-sa": 37
+        },
+        "providers": {
+          "inaturalist": 1104,
+          "wikimedia": 5
+        },
+        "quarantined_portraits": 4,
+        "quarantined_species": [
+          "nystalus maculatus",
+          "nystalus striatipectus",
+          "thalasseus acuflavidus",
+          "thalasseus sandvicensis"
+        ]
+      },
+      "portrait_policy": "portrait-v2",
+      "portrait_review_rules_sha256": "2a266a037427e3b5cab56ec69d1ec32338ca374d020d71de8a443b0bbacdce97",
+      "species_photo_source": "iNaturalist and individually curated Wikimedia Commons",
+      "species_photo_policy": "portrait-v2: licensed, taxon-matched living portraits; local subject/focus QA, manual overrides, 192px thumbnails and up to 768px WebP portraits; quality before licence preference; CC0/BY/BY-SA/BY-NC/BY-NC-SA with individual attribution and exact licence URLs. Automated review is not a biological identification guarantee.",
+      "marine_family_compatibility": {
+        "policy": "exact-marine-family-compatibility-v1",
+        "family_aliases": {
+          "Pelecanoididae": "Procellariidae",
+          "Hyperoodontidae": "Ziphiidae"
+        },
+        "additional_families": [
+          "Stercorariidae"
+        ],
+        "references": {
+          "Pelecanoididae": "https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=174664",
+          "Hyperoodontidae": "https://www.marinespecies.org/aphia.php?id=136986&p=taxdetails",
+          "Stercorariidae": "https://www.allaboutbirds.org/guide/browse/taxonomy/Stercorariidae",
+          "pelagic_skua_evidence": "https://www.birds.cornell.edu/ccb/welcome-aboard-the-rv-jaeger/"
+        },
+        "limitation": "Exact family classification permits offshore display; it does not validate any individual observation or grant access to a wildlife site."
+      },
+      "introduced_scope_policy": "documented-introduced-scope-contained-cell-v1",
+      "region_assignment": {
+        "policy": "natural-earth-admin1-contained-cell-v1",
+        "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+        "download_url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_1_states_provinces.zip",
+        "license": "Public domain",
+        "source_sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05",
+        "reference_regions": [
+          "Buenos Aires",
+          "Catamarca",
+          "Chaco",
+          "Chubut",
+          "Ciudad de Buenos Aires",
+          "Corrientes",
+          "Córdoba",
+          "Entre Ríos",
+          "Formosa",
+          "Jujuy",
+          "La Pampa",
+          "La Rioja",
+          "Mendoza",
+          "Misiones",
+          "Neuquén",
+          "Río Negro",
+          "Salta",
+          "San Juan",
+          "San Luis",
+          "Santa Cruz",
+          "Santa Fe",
+          "Santiago del Estero",
+          "Tierra del Fuego",
+          "Tucumán"
+        ],
+        "rows_by_region": {
+          "Buenos Aires": 57619,
+          "Catamarca": 7697,
+          "Chaco": 10000,
+          "Chubut": 7130,
+          "Corrientes": 23956,
+          "Córdoba": 54469,
+          "Entre Ríos": 19535,
+          "Formosa": 7147,
+          "Jujuy": 12610,
+          "La Pampa": 14792,
+          "La Rioja": 3161,
+          "Mendoza": 14290,
+          "Misiones": 10580,
+          "Neuquén": 11421,
+          "Río Negro": 7192,
+          "Salta": 21080,
+          "San Juan": 2674,
+          "San Luis": 8775,
+          "Santa Cruz": 11287,
+          "Santa Fe": 35334,
+          "Santiago del Estero": 8588,
+          "Tierra del Fuego": 1728,
+          "Tucumán": 4040,
+          "Unassigned region": 204321
+        },
+        "limitation": "Only source cells fully contained in one admin-1 unit are assigned. Border, coastal and offshore cells remain unassigned. Not a verified observation locality."
+      },
+      "region_count": 23,
+      "portrait_identity_guard_policy": "automatic-cross-species-image-quarantine-v1",
+      "species_photo_count": 1109,
+      "species_photo_bytes": 55866142,
+      "size_bytes": 121792871,
+      "uncompressed_size_bytes": 275206144,
+      "sha256": "a0d50d2956db8cd9ab5a422ab12d4b9caf1809b141904d3d773723bf830283a6",
+      "sqlite_sha256": "b63a09602f61048e69c7358104672c52e7bb90b00f79973ed9d7010d6985d37e",
+      "file_name": "argentina_1y.sqlite3.zip",
+      "archive": "zip",
+      "ebird_summary_overview": true,
+      "ebird_summary_species_table": true,
+      "download_url": "https://github.com/sauldewulf-boop/wildlife-explorer-data/releases/download/v2026.10.08.ar-preview3/argentina_1y.sqlite3.zip"
     }
   ]
 }
